@@ -25,7 +25,7 @@
   height: 70px;
   padding: 0 0 10% 0;
   margin: 0 auto;
-  font:400 14px 'open sans',sans-serif;
+  font: 400 14px 'open sans',sans-serif;
   color: #333;
   line-height: 20px;
   text-align: center;
@@ -37,6 +37,13 @@
 .unko,
 .manko {
   color: pink;
+}
+section {
+
+}
+
+footer {
+
 }
 
 /*　ルール３　IDの使用
@@ -54,14 +61,15 @@
 .example3 { background: url(example.png) no-repeat center center; }
 
 
+.font {
+  color: #fff;
+}
 
+.font { color: #fff; }
 
-
-
-
-
-
-
+/* ルール５　メディアCSSの区分け
+１．各Section直下に書いていく
+*/
 
 /*==============
 共有
@@ -92,6 +100,22 @@ Top
 @media screen and (max-width: 375px) {
 
 }
+
+/*==============
+Concept
+================*/
+/* PCサイズ用コード */
+
+
+/* スマホ（３７５）
+   タブレット（７６８）サイズ用 コード*/
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 375px) {
+
+}
+
 /*==============
 Service
 ================*/
