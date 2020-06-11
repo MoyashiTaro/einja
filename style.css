@@ -70,7 +70,7 @@ body {
   background-color: #062750;
 }
 
-.top-wrap { font-weight: bold; }
+.title-wrap { font-weight: bold; }
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
@@ -98,6 +98,9 @@ Top  Index
 h1 {
   font-size: 58px;
   margin-bottom: -30px;
+}
+h2 {
+  font-size: 40px;
 }
 
 .s1sub-title,
@@ -196,6 +199,22 @@ Footer All
 .s1sec {
   background: linear-gradient(to left, #21B5DF, #3696F4);
 }
+.s-wrap {
+  display: flex;
+  font-weight: bold;
+}
+.h2-icons {
+  position: relative;
+  top: 22px;
+  width: 80px;
+  height: 70px;
+  margin: 0px 20px 0 0;
+  background-size: cover !important;
+}
+
+.s2-icon { background: url(img/icon/web.png); }
+.s3-icon { background: url(img/icon/creative.png); }
+.s4-icon { background: url(img/icon/activity.png); }
 
 
 /*===========================================*/
