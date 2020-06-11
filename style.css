@@ -38,13 +38,6 @@
 .manko {
   color: pink;
 }
-section {
-
-}
-
-footer {
-
-}
 
 /*　ルール３　IDの使用
 １．CSSのスタイリングでは柄はない。
@@ -60,11 +53,6 @@ footer {
 .example2 { background: url(example.png) no-repeat center center; }
 .example3 { background: url(example.png) no-repeat center center; }
 
-
-.font {
-  color: #fff;
-}
-
 .font { color: #fff; }
 
 /* ルール５　メディアCSSの区分け
@@ -74,8 +62,15 @@ footer {
 /*==============
 共有
 ================*/
-/* PCサイズ用コード */
+body {
+  color: #fff;
+  font-family: 'Avenir';
+  padding: 0;
+  margin: 0;
+  background-color: #062750;
+}
 
+.top-wrap { font-weight: bold; }
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
@@ -99,6 +94,18 @@ Top  Index
   width: 275.98px;
   height: 103.63px;
 }
+
+h1 {
+  font-size: 58px;
+  margin-bottom: -30px;
+}
+
+.s1sub-title,
+.p1sub-title,
+.a1sub-title {
+  font-size: 25px;
+}
+
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
@@ -186,6 +193,9 @@ Footer All
 /*=========================================*/
 /*=== SERVICE.html のスタイル　==============*/
 /*=========================================*/
+.s1sec {
+  background: linear-gradient(to left, #21B5DF, #3696F4);
+}
 
 
 /*===========================================*/
