@@ -62,11 +62,14 @@
 /*==============
 共有
 ================*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   color: #fff;
   font-family: 'Avenir';
-  padding: 0;
-  margin: 0;
   background-color: #062750;
 }
 
@@ -97,7 +100,6 @@ Top  Index
 
 h1 {
   font-size: 58px;
-  margin-bottom: -30px;
 }
 h2 {
   font-size: 40px;
@@ -220,6 +222,13 @@ Footer All
 /*===========================================*/
 /*=== PORTFOLIO.htmlのスタイル　===============*/
 /*===========================================*/
+.p1sec {
+  background-color: #fff;
+}
+
+.p1sec .title-wrap {
+  color: #093768;
+}
 
 
 /*=======================================*/
