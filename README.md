@@ -12,20 +12,20 @@ Rule3　How to Name  Frame Class
 
 Rule4  How to Name Parts Class
 
-▷ここは共有ゆうたと考える
-
-文字　囲い
-文字　色
-文字サイズ
-ボタン
-アイコン
-背景画像
-
-
-
-
-
+要素・文字囲い　spacL spaceM spaceS
+文字サイズ     textL textM textS textSub
+文字　太さ     fw-bold
+文字　色       fc-white fc-black fc-indigo  fc-skyblue　fc-orange
+背景　色       bc-white bc-indigo bc-Dindigo bc-indigo bc-skyblue
+背景画像       bg-ファイル名　　(拡張子なし)　bg-web bg-design
+ボタン         btn bg-white bg-orange
+サービスカラムの画像が入る枠部分　S-img
+アバウト画像 　T5-container
+フォーム      form
+複数ページにまたがるcontainerを作りたい時  flex-container
 
 
-複数ページにまたがるwrapを作りたい時
+ゆうたと決めたこと
+①クラスの命名規則
+②tabvarやハンバーガーメニュー　スライダーは特殊な￥なのでその作業やる前に考える
 
