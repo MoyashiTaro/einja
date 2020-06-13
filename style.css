@@ -98,6 +98,10 @@ h2 { font-size: 40px; }
 .bg-creat { background: url(img/icon/creative.png); }
 .bg-activ { background: url(img/icon/activity.png); }
 
+.bg-web,
+.bg-creat,
+.bg-activ { background-size: cover !important; }
+
 .textS { font-size: 16px; }
 .textM { font-size: 30px; }
 .textL { font-size: 58px; }
@@ -144,7 +148,6 @@ Concept  Index.html
   width: 17.2vw;
   /* width: 220px; */
   height: 172px;
-  background-size: cover !important;
 }
 
 /* スマホ（３７５）
@@ -231,7 +234,6 @@ Footer All
   width: 80px;
   height: 70px;
   margin: 0px 20px 0 0;
-  background-size: cover !important;
 }
 
 
