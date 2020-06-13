@@ -75,6 +75,11 @@ body {
 
 .title-wrap { font-weight: bold; }
 
+.textS { font-size: 16px; }
+.textM { font-size: 30px; }
+.textL { font-size: 58px; }
+.textSub { font-size: 25px; }
+
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
 @media screen and (max-width: 768px) {
@@ -125,7 +130,7 @@ h2 {
 Concept  Index.html
 ================*/
 /* PCサイズ用コード */
-
+.T3-Container{}
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
