@@ -73,7 +73,38 @@ body {
   background-color: #062750;
 }
 
-.title-wrap { font-weight: bold; }
+/*　文字サイズ　*/
+h1 { font-size: 58px; }
+h2 { font-size: 40px; }
+.textL   { font-size: 58px; }
+.textM   { font-size: 30px; }
+.textSub { font-size: 25px; }
+.textS   { font-size: 16px; }
+
+/*　文字色　*/
+.fc-white   { color: #fff; }
+.fc-black   { color: #000; }
+.fc-indigo  { color: #093768; }  
+.fc-skyblue { color: #; }
+.fc-orange  { color: #; }
+
+/*　要素間隔　*/
+.spaceL { padding-bottom: 80px; }
+.spaceM { padding-bottom: 60px; }
+.spaceS { padding-bottom: 20px; }
+
+.fw-bold { font-weight: bold; }
+
+/*　背景色　*/
+.bc-white   { background-color: #fff; }
+.bc-Dindigo { background-color: #093768; } /* Serviceの背景色 */
+.bc-indigo  { background-color: #093569; } /* Portfolioの背景色 */
+.bc-skyblue { background-color: #3696F4; }
+
+/*　背景画像　*/
+.bg-web { background: url(img/icon/web.png); }
+.bg-creat { background: url(img/icon/creative.png); }
+.bg-activ { background: url(img/icon/activity.png); }
 
 .textS { font-size: 16px; }
 .textM { font-size: 30px; }
@@ -98,22 +129,9 @@ Top  Index
 ================*/
 /*===============　井口イジり中　=================*/
 /* H1 Einjaのスタイル */
-.t1h1 {
+.T1-h1 {
   width: 275.98px;
   height: 103.63px;
-}
-
-h1 {
-  font-size: 58px;
-}
-h2 {
-  font-size: 40px;
-}
-
-.s1sub-title,
-.p1sub-title,
-.a1sub-title {
-  font-size: 25px;
 }
 
 
@@ -145,7 +163,7 @@ Concept  Index.html
 Service  Index.html 
 ================*/
 /* PCサイズ用コード */
-
+.T3-Container{}
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
@@ -203,37 +221,27 @@ Footer All
 /*=========================================*/
 /*=== SERVICE.html のスタイル　==============*/
 /*=========================================*/
-.s1sec {
+.S1-sec {
   background: linear-gradient(to left, #21B5DF, #3696F4);
 }
-.s-wrap {
+.flex-container {
   display: flex;
   font-weight: bold;
 }
 .h2-icons {
   position: relative;
-  top: 22px;
+  top: -10px;
   width: 80px;
   height: 70px;
   margin: 0px 20px 0 0;
   background-size: cover !important;
 }
 
-.s2-icon { background: url(img/icon/web.png); }
-.s3-icon { background: url(img/icon/creative.png); }
-.s4-icon { background: url(img/icon/activity.png); }
 
 
 /*===========================================*/
 /*=== PORTFOLIO.htmlのスタイル　===============*/
 /*===========================================*/
-.p1sec {
-  background-color: #fff;
-}
-
-.p1sec .title-wrap {
-  color: #093768;
-}
 
 
 /*=======================================*/
