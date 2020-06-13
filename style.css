@@ -18,7 +18,8 @@
 
 */
 
-.example {
+.example,
+.example1 {
   display: block;
   float: left;
   width: 16.6%;
@@ -34,11 +35,6 @@
   border-bottom:2px solid #ddd;
 }
 
-.unko,
-.manko {
-  color: pink;
-}
-
 /*　ルール３　IDの使用
 １．CSSのスタイリングでは柄はない。
 2. JSでマーキングしたい時や、内部リンクでマーキングしたい時に使う
@@ -50,10 +46,6 @@
 */
 .example  { background: url(example.png) no-repeat center center; }
 .example1 { background: url(example.png) no-repeat center center; }
-.example2 { background: url(example.png) no-repeat center center; }
-.example3 { background: url(example.png) no-repeat center center; }
-
-.font { color: #fff; }
 
 /* ルール５　メディアCSSの区分け
 １．各Section直下に書いていく
@@ -76,10 +68,10 @@ body {
 /*　文字サイズ　*/
 h1 { font-size: 58px; }
 h2 { font-size: 40px; }
-.textL   { font-size: 58px; }
-.textM   { font-size: 30px; }
-.textSub { font-size: 25px; }
 .textS   { font-size: 16px; }
+.textM   { font-size: 30px; }
+.textL   { font-size: 58px; }
+.textSub { font-size: 25px; }
 
 /*　文字色　*/
 .fc-white   { color: #fff; }
@@ -89,9 +81,9 @@ h2 { font-size: 40px; }
 .fc-orange  { color: #; }
 
 /*　要素間隔　*/
-.spaceL { padding-bottom: 80px; }
-.spaceM { padding-bottom: 60px; }
 .spaceS { padding-bottom: 20px; }
+.spaceM { padding-bottom: 60px; }
+.spaceL { padding-bottom: 80px; }
 
 .fw-bold { font-weight: bold; }
 
@@ -148,7 +140,12 @@ Top  Index
 Concept  Index.html
 ================*/
 /* PCサイズ用コード */
-.T3-Container{}
+.T3-Container {
+  width: 17.2vw;
+  /* width: 220px; */
+  height: 172px;
+  background-size: cover !important;
+}
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
