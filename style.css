@@ -108,6 +108,36 @@ h2 { font-size: 40px; }
 .textL { font-size: 58px; }
 .textSub { font-size: 25px; }
 
+/* ボタン */
+.btn {
+  width: 230px;¥
+  font-size: 16px;
+  text-align:center;
+  padding: 12px 0 12px 0;
+  border-radius:80px;
+  margin: 80px 80px;
+
+}
+
+.bg-orange{
+  background-color:#AC210C;
+}
+
+
+.bg-White{
+  background-color:#fff;
+}
+
+.btn-link{
+  text-decoration: none;
+  color: white;
+}
+
+.btn-link-blue{
+  text-decoration: none;
+  color:#3696F4;
+}
+
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
 @media screen and (max-width: 768px) {
