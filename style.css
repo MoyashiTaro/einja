@@ -251,11 +251,11 @@ WEB  portfolio.html
 .P-Box { width: 36vw; }
 .P-bgContainer {
   width: 37vw;
-  height: 274px;
+  height: 47vh;
 }
 .P-texBox {
   position: relative;
-  top: 120px;
+  top: 20.9vh;
 }
 .P2-Container { padding-right: 4.7vw; }
 .bg-Lab89 { background: url(img/portfolio/Lab89.png); }
