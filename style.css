@@ -100,7 +100,8 @@ h2 { font-size: 40px; }
 
 .bg-web,
 .bg-creat,
-.bg-activ { background-size: cover !important; }
+.bg-activ,
+.bg-Lab89 { background-size: cover !important; }
 
 .textS { font-size: 16px; }
 .textM { font-size: 30px; }
@@ -242,6 +243,31 @@ Footer All
 /*=== PORTFOLIO.htmlのスタイル　===============*/
 /*===========================================*/
 
+/*==============
+WEB  portfolio.html
+================*/
+/* PCサイズ用コード */
+.P-Wrap { display: flex; }
+.P-Box { width: 36vw; }
+.P-bgContainer {
+  width: 37vw;
+  height: 274px;
+}
+.P-texBox {
+  position: relative;
+  top: 120px;
+}
+.P2-Container { padding-right: 4.7vw; }
+.bg-Lab89 { background: url(img/portfolio/Lab89.png); }
+
+/* スマホ（３７５）
+   タブレット（７６８）サイズ用 コード*/
+   @media screen and (max-width: 768px) {
+
+  }
+  @media screen and (max-width: 375px) {
+  
+  }
 
 /*=======================================*/
 /*=== ABOUT.html のスタイル　==============*/
