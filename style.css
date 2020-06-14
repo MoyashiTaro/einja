@@ -101,7 +101,8 @@ h2 { font-size: 40px; }
 .bg-web,
 .bg-creat,
 .bg-activ,
-.bg-Lab89 { background-size: cover !important; }
+.bg-Lab89,
+.bg-UIUX { background-size: cover !important; }
 
 .textS { font-size: 16px; }
 .textM { font-size: 30px; }
@@ -194,7 +195,6 @@ Concept  Index.html
 Service  Index.html 
 ================*/
 /* PCサイズ用コード */
-.T3-Container{}
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
@@ -266,8 +266,14 @@ Footer All
   height: 70px;
   margin: 0px 20px 0 0;
 }
-
-
+.S-Box {
+  width: 182px;
+  height: 159px;
+  border-radius: 70% 70% 30% 30% / 80% 80% 60% 60%;
+}
+.S-bgBox { background: #fff; }
+.S-texBox { width: 225px; }
+.bg-UIUX { background: url(img/service/layout.png); }
 
 /*===========================================*/
 /*=== PORTFOLIO.htmlのスタイル　===============*/
