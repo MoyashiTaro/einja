@@ -84,8 +84,8 @@ h2 { font-size: 40px; }
 .fc-white   { color: #fff; }
 .fc-black   { color: #000; }
 .fc-indigo  { color: #093768; }  
-.fc-skyblue { color: #; }
-.fc-orange  { color: #; }
+.fc-skyblue { color: ##3696F4; }
+.fc-orange  { color: ##AC210C; }
 
 /*　要素間隔　*/
 .spaceS { padding-bottom: 20px; }
@@ -101,7 +101,7 @@ h2 { font-size: 40px; }
 .bc-indigo  { background-color: #093569; } /* Portfolioの背景色 */
 .bc-skyblue { background-color: #3696F4; }
 .bc-gray    { background-color: #3C3939; }
-
+.bc-orange { background-color: #AC210C; }
 
 /*　背景画像　*/
 .bg-web   { background: url(img/icon/web.png); }
@@ -122,31 +122,11 @@ h2 { font-size: 40px; }
 /* ボタン */
 .btn {
   width: 230px;¥
-  font-size: 16px;
   text-align:center;
   padding: 12px 0 12px 0;
   border-radius:80px;
   margin: 80px 80px;
 
-}
-
-.bg-orange{
-  background-color:#AC210C;
-}
-
-
-.bg-White{
-  background-color:#fff;
-}
-
-.btn-link{
-  text-decoration: none;
-  color: white;
-}
-
-.btn-link-blue{
-  text-decoration: none;
-  color:#3696F4;
 }
 
 /* スマホ（３７５）
