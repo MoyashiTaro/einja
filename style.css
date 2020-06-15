@@ -84,8 +84,8 @@ h2 { font-size: 40px; }
 .fc-white   { color: #fff; }
 .fc-black   { color: #000; }
 .fc-indigo  { color: #093768; }  
-.fc-skyblue { color: ##3696F4; }
-.fc-orange  { color: ##AC210C; }
+.fc-skyblue { color: #3696F4; }
+.fc-orange  { color: #AC210C; }
 
 /*　要素間隔　*/
 .spaceS { padding-bottom: 20px; }
@@ -121,13 +121,18 @@ h2 { font-size: 40px; }
 
 /* ボタン */
 .btn {
-  width: 230px;¥
+  width: 230px;
   text-align:center;
   padding: 12px 0 12px 0;
   border-radius:80px;
-  margin: 80px 80px;
-
+  display: inline-block;
 }
+
+.btn-width {width: 230px;}
+
+.btn-padding{padding: 80 0}
+
+.right-vector{padding:0 12px }
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
