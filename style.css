@@ -176,11 +176,7 @@ Top  Index
 Concept  Index.html
 ================*/
 /* PCサイズ用コード */
-.T3-Container {
-  width: 17.2vw;
-  /* width: 220px; */
-  height: 172px;
-}
+
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
@@ -284,14 +280,13 @@ WEB  portfolio.html
 ================*/
 /* PCサイズ用コード */
 .P-Wrap { display: flex; }
-.P-Box { width: 36vw; }
-.P-bgContainer {
-  width: 37vw;
-  height: 47vh;
+.P-Box {
+  width: 36vw;
+  height: 25vh;
 }
-.P-texBox {
-  position: relative;
-  top: 20.9vh;
+.P-bgContainer {
+  width: 33.5vw;
+  height: 33.5vh;
 }
 .P2-Container { padding-right: 4.7vw; }
 .bg-Lab89 { background: url(img/portfolio/Lab89.png); }
