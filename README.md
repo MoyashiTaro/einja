@@ -29,3 +29,7 @@ Rule4  How to Name Parts Class
 ①クラスの命名規則
 ②tabvarやハンバーガーメニュー　スライダーは特殊な￥なのでその作業やる前に考える
 
+シフト
+Mon, Fri (Yuta) 16h
+other Dayligt (iguchi) 55h
+      night (amano) 35h
