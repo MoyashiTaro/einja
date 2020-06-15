@@ -191,7 +191,10 @@ Concept  Index.html
 Service  Index.html 
 ================*/
 /* PCサイズ用コード */
-
+.T-Container {
+  width: 17.2vw;
+  height: 172px;
+}
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
 @media screen and (max-width: 768px) {
