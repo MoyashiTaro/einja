@@ -58,7 +58,14 @@
   padding: 0;
   margin: 0;
 }
-
+a {
+  color:#ffffff;
+  text-decoration:none;
+}
+li {
+  display:inline;
+  list-style: none;
+}
 body {
   color: #fff;
   font-family: 'Avenir';
@@ -84,6 +91,7 @@ h2 { font-size: 40px; }
 .spaceS { padding-bottom: 20px; }
 .spaceM { padding-bottom: 60px; }
 .spaceL { padding-bottom: 80px; }
+.spaceTL { padding-top: 80px; }
 
 .fw-bold { font-weight: bold; }
 
@@ -92,9 +100,11 @@ h2 { font-size: 40px; }
 .bc-Dindigo { background-color: #093768; } /* Serviceの背景色 */
 .bc-indigo  { background-color: #093569; } /* Portfolioの背景色 */
 .bc-skyblue { background-color: #3696F4; }
+.bc-gray    { background-color: #3C3939; }
+
 
 /*　背景画像　*/
-.bg-web { background: url(img/icon/web.png); }
+.bg-web   { background: url(img/icon/web.png); }
 .bg-creat { background: url(img/icon/creative.png); }
 .bg-activ { background: url(img/icon/activity.png); }
 
@@ -236,7 +246,36 @@ About  Index.html
 Footer All
 ================*/
 /* PCサイズ用コード */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.bg-footerLogo {
+  position: relative;
+  top: -5rem;
+  left: 47%;
+  width: 68px;
+  height: 87px;
+  background: url(img/icon/einja-footerLogo.png);
+  background-size: cover;
+}
 
+.footer-logo {
+  display: block;
+  width: 168px;
+  height: auto;
+  margin: 0 auto;
+}
+.footer-lists {
+  text-align: center;
+}
+.footer-lists a {
+  transition: ease .5s;
+}
+.footer-lists li:hover a{
+  color: #000;
+}
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
