@@ -294,7 +294,6 @@ footer {
   height: 159px;
   border-radius: 70% 70% 30% 30% / 80% 80% 60% 60%;
 }
-.S-bgBox { background: #fff; }
 .S-texBox { width: 225px; }
 .bg-UIUX { background: url(img/service/layout.png); }
 
@@ -403,7 +402,7 @@ WEB  portfolio.html
   width: 33.5vw;
   height: 33.5vh;
 }
-.P2-Container { padding-right: 4.7vw; }
+.P-Container { padding-right: 4.7vw; }
 .bg-Lab89 { background: url(img/portfolio/Lab89.png); }
 
 /* スマホ（３７５）
