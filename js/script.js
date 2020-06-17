@@ -6,6 +6,12 @@
 // ======================
 
 // Slider
+// $(document).ready(function(){
+//   $('.slider').slick({
+//     setting-name: ;
+//   });
+// });
+
 $('.slider').slick({
   centerMode: true,
   centerPadding: '60px',
@@ -31,6 +37,8 @@ $('.slider').slick({
     }
   ]
 });
+
+
 
 // ======================
 // Portfolio ページ
