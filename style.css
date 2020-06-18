@@ -102,6 +102,7 @@ h2 { font-size: 40px; }
 .bc-skyblue { background-color: #3696F4; }
 .bc-gray    { background-color: #3C3939; }
 .bc-orange { background-color: #AC210C; }
+.bc-DDindigo { background-color: #020424; }
 
 /*　背景画像　*/
 .bg-web   { background: url(img/icon/web.png); }
@@ -138,6 +139,142 @@ h2 { font-size: 40px; }
    タブレット（７６８）サイズ用 コード*/
 @media screen and (max-width: 768px) {
 　
+}
+@media screen and (max-width: 375px) {
+
+}
+
+/*==============
+HumbergerMenu All
+================*/
+/* PCサイズ用コード */
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  z-index: 998;
+  transition: width .2s;
+}
+
+.menu--isOpen { width: 100vw; }/* メニューの範囲 */
+
+.menu__button {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  width: 50px;
+  height: 50px;
+  z-index: 999;
+  background-color: rgb(255, 255, 255, 0);
+  border-radius: 5px;
+  border: none;
+}
+
+.menu span {
+  display: block;
+  width: 80%;
+  margin: auto;
+  height: 4px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc((100% - 4px)/2);
+  border-radius: 3px;
+  transition: .2s;
+}
+
+.menu__lineTop { transform: translateY(-10px); }
+.menu__lineMiddle {}
+.menu__lineBottom { transform: translateY(10px); }
+.menu--isOpen .menu__lineTop { transform: rotate(45deg); }
+.menu--isOpen .menu__lineMiddle { opacity: 0; }
+.menu--isOpen .menu__lineBottom { transform: rotate(-45deg); }
+
+.underline {
+  width: 68px;
+  height: 4px;
+  display: inline-block;   
+}
+.menuContainer {
+  width: 24.71vw;
+  height: 100vh;
+  display: inline-block;
+}
+.menuBox {
+  width: 24.71vw;
+  height: 100vh;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+.menuContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+  
+}
+
+.menuBox :hover { background: rgb(255, 255, 255, 0) !important; }
+
+.menuWrop :hover {
+  background: url(img/bg/menu-gradation.png);
+  background-size: cover;
+}
+
+/* スマホ（３７５）
+   タブレット（７６８）サイズ用 コード*/
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 375px) {
+
+}
+
+
+/*==============
+Footer All
+================*/
+/* PCサイズ用コード */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.bg-footerLogo {
+  position: relative;
+  top: -5rem;
+  left: 47%;
+  width: 68px;
+  height: 87px;
+  background: url(img/icon/einja-footerLogo.png);
+  background-size: cover;
+}
+
+.footer-logo {
+  display: block;
+  width: 168px;
+  height: auto;
+  margin: 0 auto;
+}
+.footer-lists {
+  text-align: center;
+}
+.footer-lists a {
+  transition: ease .5s;
+}
+.footer-lists li:hover a{
+  color: #000;
+}
+
+/* スマホ（３７５）
+   タブレット（７６８）サイズ用 コード*/
+@media screen and (max-width: 768px) {
+
 }
 @media screen and (max-width: 375px) {
 
@@ -227,50 +364,6 @@ About  Index.html
 @media screen and (max-width: 375px) {
 
 }
-/*==============
-Footer All
-================*/
-/* PCサイズ用コード */
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-.bg-footerLogo {
-  position: relative;
-  top: -5rem;
-  left: 47%;
-  width: 68px;
-  height: 87px;
-  background: url(img/icon/einja-footerLogo.png);
-  background-size: cover;
-}
-
-.footer-logo {
-  display: block;
-  width: 168px;
-  height: auto;
-  margin: 0 auto;
-}
-.footer-lists {
-  text-align: center;
-}
-.footer-lists a {
-  transition: ease .5s;
-}
-.footer-lists li:hover a{
-  color: #000;
-}
-
-/* スマホ（３７５）
-   タブレット（７６８）サイズ用 コード*/
-@media screen and (max-width: 768px) {
-
-}
-@media screen and (max-width: 375px) {
-
-}
-
 
 /*=========================================*/
 /*=== SERVICE.html のスタイル　==============*/
