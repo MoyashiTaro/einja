@@ -13,24 +13,25 @@ $('.menu').toggleClass('menu--isOpen');
 // Index ページ
 // ======================
 
-// Slider
-// $(document).ready(function(){
-//   $('.slider').slick({
-//     setting-name: ;
-//   });
+// $('.slider').slick({
+//     autoplay:true,
+//     autoplaySpeed:5000,
+//     dots:true,
 // });
 
-$('.slider').slick({
+$('.center-js').slick({
   centerMode: true,
-  centerPadding: '60px',
+  centerPadding: '0',
+  infinite: true,
   slidesToShow: 3,
+  arrows: true,
   responsive: [
     {
       breakpoint: 768,
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '40px',
+        centerPadding: '60px',
         slidesToShow: 3
       }
     },
@@ -39,7 +40,7 @@ $('.slider').slick({
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '40px',
+        centerPadding: '60px',
         slidesToShow: 1
       }
     }

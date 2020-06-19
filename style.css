@@ -235,7 +235,6 @@ HumbergerMenu All
 
 }
 
-
 /*==============
 Footer All
 ================*/
@@ -340,12 +339,16 @@ Service  Index.html
 Portfolio  Index.html
 ================*/
 /* PCサイズ用コード */
-
+.T4-slider-container {
+  padding: 0 188px;
+}
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
 @media screen and (max-width: 768px) {
-
+  .T4-slider-container {
+    padding: 0;
+  }
 }
 @media screen and (max-width: 375px) {
 
