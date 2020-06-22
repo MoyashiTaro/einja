@@ -103,6 +103,7 @@ h2 { font-size: 40px; }
 .bc-gray    { background-color: #3C3939; }
 .bc-orange { background-color: #AC210C; }
 .bc-DDindigo { background-color: #020424; }
+.bc-bluegradate { background: linear-gradient(0.25turn, #18D0CA, #11CBCE, #1EBAD6, #23B2E4, #349FEE, #3792F7); } /* Aboutの背景色 */
 
 /*　背景画像　*/
 .bg-web   { background: url(img/icon/web.png); }
@@ -194,15 +195,26 @@ HumbergerMenu All
 .menu--isOpen .menu__lineBottom { transform: rotate(-45deg); }
 
 .underline {
-  width: 68px;
-  height: 4px;
-  display: inline-block;   
+  width: 64px !important;
+  height: 0px;
+  border: solid #fff 2px;
+  display: inline-block;
 }
+
 .menuContainer {
   width: 24.71vw;
   height: 100vh;
   display: inline-block;
 }
+
+.menuContainer :hover {
+  width: 28vw;
+  background: url(img/bg/menu-gradation.png);
+  background-size: cover;
+  z-index: 20;
+  transition: .4s;
+}
+
 .menuBox {
   width: 24.71vw;
   height: 100vh;
@@ -210,21 +222,17 @@ HumbergerMenu All
   text-align: center;
   position: relative;
 }
+
 .menuContent {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform : translate(-50%,-50%);
   transform : translate(-50%,-50%);
-  
 }
 
 .menuBox :hover { background: rgb(255, 255, 255, 0) !important; }
 
-.menuWrop :hover {
-  background: url(img/bg/menu-gradation.png);
-  background-size: cover;
-}
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
