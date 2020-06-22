@@ -70,6 +70,7 @@ body {
   color: #fff;
   font-family: 'Avenir';
   background-color: #062750;
+  text-align: center;
 }
 
 /*　文字サイズ　*/
@@ -333,6 +334,7 @@ Service  Index.html
 .T-Container {
   width: 17.2vw;
   height: 172px;
+  margin: 0 auto;
 }
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
@@ -379,9 +381,6 @@ About  Index.html
 /*=========================================*/
 /*=== SERVICE.html のスタイル　==============*/
 /*=========================================*/
-.S1-sec {
-  background: linear-gradient(to left, #21B5DF, #3696F4);
-}
 .flex-container {
   display: flex;
   font-weight: bold;
@@ -397,8 +396,12 @@ About  Index.html
   width: 182px;
   height: 159px;
   border-radius: 70% 70% 30% 30% / 80% 80% 60% 60%;
+  margin: 0 auto;
 }
-.S-texBox { width: 225px; }
+.S-texBox {
+  width: 225px;
+  margin: 0 auto;
+}
 .bg-UIUX { background: url(img/service/layout.png); }
 
 /*===========================================*/
