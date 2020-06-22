@@ -107,15 +107,28 @@ h2 { font-size: 40px; }
 .bc-bluegradate { background: linear-gradient(0.25turn, #18D0CA, #11CBCE, #1EBAD6, #23B2E4, #349FEE, #3792F7); } /* Aboutの背景色 */
 
 /*　背景画像　*/
-.bg-web   { background: url(img/icon/web.png); }
-.bg-creat { background: url(img/icon/creative.png); }
-.bg-activ { background: url(img/icon/activity.png); }
+.bg-web   { background: url(img/icon/web.png) center center; }
+.bg-creat { background: url(img/icon/creative.png) center center; }
+.bg-activ { background: url(img/icon/activity.png) center center; }
+/* 背景画像　Portfolio */
+.bg-Lab89 { background: url(img/portfolio/Lab89.png) center center; }
+.bg-hero  { background: url(img/portfolio/hero.png) center center; }
+.bg-k2m   { background: url(img/portfolio/k2m.png) center center; }
+.bg-plus  { background: url(img/portfolio/plus.png) center center; }
+.bg-shoespicks { background: url(img/portfolio/shoespicks.png) center center; }
+.bg-ana   { background: url(img/portfolio/ana.png) center center; }
+
 
 .bg-web,
 .bg-creat,
 .bg-activ,
 .bg-Lab89,
-.bg-UIUX { background-size: cover !important; }
+.bg-UIUX,
+.bg-hero,
+.bg-k2m ,
+.bg-plus,
+.bg-shoespicks,
+.bg-ana { background-size: cover !important; }
 
 .textS { font-size: 16px; }
 .textM { font-size: 30px; }
@@ -136,6 +149,11 @@ h2 { font-size: 40px; }
 .btn-padding{padding: 80 0}
 
 .right-vector{padding:0 12px }
+
+.S1-sec,
+.P1-sec {
+  height: 530px;
+}
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
@@ -249,8 +267,6 @@ Footer All
 ================*/
 /* PCサイズ用コード */
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
 .bg-footerLogo {
@@ -259,6 +275,7 @@ footer {
   left: 47%;
   width: 68px;
   height: 87px;
+  margin-top: 80px;
   background: url(img/icon/einja-footerLogo.png);
   background-size: cover;
 }
@@ -402,7 +419,7 @@ About  Index.html
   width: 225px;
   margin: 0 auto;
 }
-.bg-UIUX { background: url(img/service/layout.png); }
+.bg-UIUX { background: url(img/service/layout.png) center center; }
 
 /*===========================================*/
 /*=== PORTFOLIO.htmlのスタイル　===============*/
@@ -412,9 +429,10 @@ About  Index.html
 Tab Bar
 ================*/
 .tabs{
-  width: 80vw;
-  margin: 10px auto;
   position: relative;
+  width: 80vw;
+  margin: 7% auto 0;
+  text-align: left;
 }
 
 .tab-buttons {
@@ -427,7 +445,7 @@ Tab Bar
   top: 40px;
   display: block;
   width: 100%;
-  height: 20px;
+  height: 35px;
   background-color: #fff;
   border-radius: 50px;
 }
@@ -448,7 +466,6 @@ Tab Bar
   position: relative;
   top: 20px;
   display: inline-block;
-  border-bottom: 3px solid #ddd;
   padding: 15px;
 }
 
@@ -456,7 +473,7 @@ Tab Bar
   position: absolute;
   top: 40px;
   width: 25%;
-  height: 20px;
+  height: 35px;
   display: block;
   border-radius: 50px;
   background-color: #3696F4;
@@ -500,6 +517,12 @@ Tab Bar
 WEB  portfolio.html
 ================*/
 /* PCサイズ用コード */
+.P1-sec > div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .P-Wrap { display: flex; }
 .P-Box {
   width: 36vw;
@@ -510,7 +533,6 @@ WEB  portfolio.html
   height: 33.5vh;
 }
 .P-Container { padding-right: 4.7vw; }
-.bg-Lab89 { background: url(img/portfolio/Lab89.png); }
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
