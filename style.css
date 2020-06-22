@@ -547,15 +547,37 @@ WEB  portfolio.html
 /*=== ABOUT.html のスタイル　==============*/
 /*=======================================*/
 
+.A2-Sec { font-family: 'Hiragino Kaku Gothic ProN'; }
+.profile {
+  width: 251px;
+  margin: 0 auto;
+}
 
+.memberface {
+  width: 112px;/*幅*/
+  height: 112px;/*高さ*/
+  border-radius: 50%;/*角丸*/
+  position: relative;
+  top: 36px;
+  margin: 0 auto;
+}
 
+.socialicon {
+  width: 45px;/*幅*/
+	height: 45px;/*高さ*/
+  border-radius: 50%;/*角丸*/
+  display: inline-table;
+}
 
+.A-Container1 {
+  width: 308px;
+  height: 93px;
+  border-radius: 10px 10px 0 0;
+}
 
-
-
-
-
-
-
-
-
+.A-Container2 {
+  width: 308px;
+  height: 314px; /* 370px-56px */
+  padding-top: 56px; /* memberfaceの半分 */
+  margin-top: 4.6px;
+}
