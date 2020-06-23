@@ -401,6 +401,7 @@ About  Index.html
 .flex-container {
   display: flex;
   font-weight: bold;
+  justify-content: center;
 }
 .h2-icons {
   position: relative;
@@ -524,15 +525,27 @@ WEB  portfolio.html
 }
 
 .P-Wrap { display: flex; }
-.P-Box {
-  width: 36vw;
-  height: 25vh;
+
+.P-Wrap:nth-child(2n) .P-Container {
+  order: 1;
+  padding-left: 4.7vw;
+  padding-right: 0 ;
 }
+
+.P-Container { 
+  width: 55%;
+  padding-right: 4.7vw; 
+}
+
 .P-bgContainer {
   width: 33.5vw;
   height: 33.5vh;
 }
-.P-Container { padding-right: 4.7vw; }
+
+.P-Box {
+  width: 36vw;
+  height: 25vh;
+}
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
