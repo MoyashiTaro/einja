@@ -118,6 +118,17 @@ h2 { font-size: 40px; }
 .bg-shoespicks { background: url(img/portfolio/shoespicks.png) center center; }
 .bg-ana   { background: url(img/portfolio/ana.png) center center; }
 
+.bg-earth { background: url(img/portfolio/movie-earth.png) center center; }
+.bg-fish  { background: url(img/portfolio/movie-fish.png) center center; }
+.bg-sns   { background: url(img/portfolio/movie-sns.png) center center; }
+.bg-tf    { background: url(img/portfolio/movie-tf.png) center center; }
+.bg-train { background: url(img/portfolio/movie-train.png) center center; }
+.bg-vrwatch{ background: url(img/portfolio/movie-vrwatch.png) center center; }
+.bg-remix { background: url(img/portfolio/music-remix.png) center center; }
+.bg-kanie { background: url(img/portfolio/music-kanie.png) center center; }
+
+
+
 
 .bg-web,
 .bg-creat,
@@ -128,7 +139,15 @@ h2 { font-size: 40px; }
 .bg-k2m ,
 .bg-plus,
 .bg-shoespicks,
-.bg-ana { background-size: cover !important; }
+.bg-ana,
+.bg-earth,
+.bg-fish,
+.bg-sns,
+.bg-tf,
+.bg-train,
+.bg-vrwatch,
+.bg-remix,
+.bg-kanie { background-size: cover !important; }
 
 .textS { font-size: 16px; }
 .textM { font-size: 30px; }
@@ -526,7 +545,7 @@ WEB  portfolio.html
 
 .P-Wrap { display: flex; }
 
-.P-Wrap:nth-child(2n) .P-Container {
+.P-Wrap:nth-child(2n+1) .P-Container {
   order: 1;
   padding-left: 4.7vw;
   padding-right: 0 ;
