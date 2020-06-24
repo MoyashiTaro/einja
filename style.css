@@ -579,7 +579,11 @@ WEB  portfolio.html
 /*=== ABOUT.html のスタイル　==============*/
 /*=======================================*/
 
-.A2-Sec { font-family: 'Hiragino Kaku Gothic ProN'; }
+.A2-Sec {
+  font-family: 'Hiragino Kaku Gothic ProN';
+  display: table;
+  margin: 0 auto;
+}
 .profile {
   width: 251px;
   margin: 0 auto;
@@ -628,4 +632,8 @@ WEB  portfolio.html
   margin: 16px 0;
   line-height: 35px;
   display: inline-block;
+}
+.A-Wrap {
+  display: table-cell;
+  padding: 22px;
 }
