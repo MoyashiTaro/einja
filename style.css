@@ -594,10 +594,16 @@ WEB  portfolio.html
   margin: 0 auto;
 }
 
+.socialBox {
+  position: relative;
+  bottom: -5vh;
+}
+
 .socialicon {
   width: 45px;/*幅*/
 	height: 45px;/*高さ*/
   border-radius: 50%;/*角丸*/
+  margin: 0 17.5px;
   display: inline-table;
 }
 
@@ -612,4 +618,14 @@ WEB  portfolio.html
   height: 314px; /* 370px-56px */
   padding-top: 56px; /* memberfaceの半分 */
   margin-top: 4.6px;
+}
+
+.proftag {
+  width: 100px;
+  height: 35px;
+  border: solid #ccc 1px;
+  border-radius: 28px;
+  margin: 16px 0;
+  line-height: 35px;
+  display: inline-block;
 }
