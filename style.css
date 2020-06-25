@@ -169,8 +169,9 @@ h2 { font-size: 40px; }
 
 .right-vector{padding:0 12px }
 
-.S1-sec,
-.P1-sec {
+.S1-Sec,
+.P1-Sec,
+.A1-Sec {
   height: 530px;
 }
 
@@ -537,7 +538,7 @@ Tab Bar
 WEB  portfolio.html
 ================*/
 /* PCサイズ用コード */
-.P1-sec > div {
+.P1-Sec > div {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -583,6 +584,11 @@ WEB  portfolio.html
 /*=======================================*/
 /*=== ABOUT.html のスタイル　==============*/
 /*=======================================*/
+.A1-Sec > div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 .A2-Sec {
   font-family: 'Hiragino Kaku Gothic ProN';
