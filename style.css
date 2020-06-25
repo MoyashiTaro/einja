@@ -552,18 +552,23 @@ WEB  portfolio.html
 }
 
 .P-Container { 
-  width: 55%;
+  position: relative;
+  width: 50%;
   padding-right: 4.7vw; 
 }
 
 .P-bgContainer {
-  width: 33.5vw;
+  /*width: 33.5vw;*/
+  width: 50%;
   height: 33.5vh;
 }
 
 .P-Box {
-  width: 36vw;
-  height: 25vh;
+  /*width: 36vw;*/
+}
+.P-lists {
+  position: absolute;
+  bottom: -2%;
 }
 
 /* スマホ（３７５）
