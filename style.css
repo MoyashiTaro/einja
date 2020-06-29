@@ -106,11 +106,15 @@ h2 { font-size: 40px; }
 .bc-DDindigo { background-color: #020424; }
 .bc-bluegradate { background: linear-gradient(0.25turn, #18D0CA, #11CBCE, #1EBAD6, #23B2E4, #349FEE, #3792F7); } /* Aboutの背景色 */
 
-/*　背景画像　*/
+/*　背景画像_共通　*/
 .bg-web   { background: url(img/icon/web.png) center center; }
 .bg-creat { background: url(img/icon/creative.png) center center; }
 .bg-activ { background: url(img/icon/activity.png) center center; }
-/* 背景画像　Portfolio */
+/* 背景画像_Top */
+.bg-T_rise {background: url(T_rise.jpg) no-repeat center center;}
+.bg-T_ALink{background-image: : url(T_ALink.png) no-repeat center center;}
+.T_ALink {background-image: : url(T_ALink.png) norepeat center center;}
+/* 背景画像_Portfolio */
 .bg-Lab89 { background: url(img/portfolio/Lab89.png) center center; }
 .bg-hero  { background: url(img/portfolio/hero.png) center center; }
 .bg-k2m   { background: url(img/portfolio/k2m.png) center center; }
@@ -339,6 +343,76 @@ Top  Index
   height: 103.63px;
 }
 
+.T1-Sec {
+
+
+}
+
+/*お問い合わせフォーム*/
+
+.cp_iptxt {
+	position: relative;
+	width: 80%;
+	padding: 40px 3%;
+}
+body{
+    background-color:black;
+}
+
+.formWrapper{
+    width:43.05vw;
+    height:477px;
+	background-color: #131E4C;
+	border-radius: 20px;
+}
+
+.formcontainer{
+	width: 35.76vw;
+	height: 347px;
+	padding: 71.5px 52.5px 58.5px 52.5px;
+}
+
+.formFlame-S{
+	display: inline-block;
+	width: 17.13vw;
+	height: 4.11vw;
+
+}
+
+.gap{
+	margin-right:1.18vw;
+}
+
+textarea {
+	resize: none;
+	width: 35.76vw;
+	height: 93px;
+  margin-bottom: 43px;
+  border-radius: 10px;
+}
+
+
+.formLabel {
+  float: left;
+}
+
+.cp_iptxt-S input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: none;
+    background: #ffff;
+    border-radius: 80px;
+}
+.ef input[type='text']:focus {
+	border-bottom: 2px solid #da3c41;
+	outline: none;
+}
+
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
@@ -348,6 +422,8 @@ Top  Index
 @media screen and (max-width: 375px) {
 
 }
+
+
 
 /*==============
 Concept  Index.html
@@ -647,65 +723,4 @@ WEB  portfolio.html
 .A-Wrap {
   display: table-cell;
   padding: 22px;
-}
-
-/*=================
-お問い合わせフォーム
-=================*/
-
-.cp_iptxt {
-	position: relative;
-	width: 80%;
-	padding: 40px 3%;
-}
-body{
-    background-color:black;
-}
-
-.formWrapper{
-    width:43.05vw;
-    height:477px;
-	background-color: #131E4C;
-	border-radius: 20px;
-}
-
-.formcontainer{
-	width: 35.76vw;
-	height: 347px;
-	padding: 71.5px 52.5px 58.5px 52.5px;
-}
-
-.formFlame-S{
-	display: inline-block;
-	width: 17.15vw;
-	height: 4.11vw;
-
-}
-
-.gap{
-	margin-right:1.18vw;
-}
-
-textarea {
-	resize: none;
-	width: 35.76vw;
-	height: 93px;
-	margin-bottom: 43px;
-}
-
-.cp_iptxt-S input[type='text'] {
-	font: 15px/24px sans-serif;
-	box-sizing: border-box;
-	width: 100%;
-	padding: 0.3em;
-	transition: 0.3s;
-	letter-spacing: 1px;
-	color: #aaaaaa;
-	border: none;
-    background: #ffff;
-    border-radius: 80px;
-}
-.ef input[type='text']:focus {
-	border-bottom: 2px solid #da3c41;
-	outline: none;
 }
