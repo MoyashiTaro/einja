@@ -111,9 +111,22 @@ h2 { font-size: 40px; }
 .bg-creat { background: url(img/icon/creative.png) center center; }
 .bg-activ { background: url(img/icon/activity.png) center center; }
 /* 背景画像_Top */
-.bg-T_rise {background: url(T_rise.jpg) no-repeat center center;}
-.bg-T_ALink{background-image: : url(T_ALink.png) no-repeat center center;}
-.T_ALink {background-image: : url(T_ALink.png) norepeat center center;}
+.bg-T_rise { background: url(T_rise.jpg) no-repeat center center; }
+.bg-T_ALink{ background: url(T_ALink.png) no-repeat center center; }
+.T_ALink { background: url(T_ALink.png) no-repeat center center; }
+
+/* 背景画像_Service */
+.bg-S_sky { background: url(img/bg/S_sky.png) no-repeat center center; }
+
+/* 背景画像_Service Icon */
+.bg-UIUX { background: url(img/service/layout.png) center center; }
+.bg-webDesign { background: url(img/service/webDesign.png) no-repeat center center; }
+.bg-app { background: url(img/service/app.png) no-repeat center center; }
+.bg-analy { background: url(img/service/analy.png) no-repeat center center; }
+.bg-seo { background: url(img/service/seo.png) no-repeat center center; }
+.bg-ad { background: url(img/service/ad.png) no-repeat center center; }
+.bg-mante { background: url(img/service/mante.png) no-repeat center center; }
+
 /* 背景画像_Portfolio */
 .bg-Lab89 { background: url(img/portfolio/Lab89.png) center center; }
 .bg-hero  { background: url(img/portfolio/hero.png) center center; }
@@ -121,7 +134,6 @@ h2 { font-size: 40px; }
 .bg-plus  { background: url(img/portfolio/plus.png) center center; }
 .bg-shoespicks { background: url(img/portfolio/shoespicks.png) center center; }
 .bg-ana   { background: url(img/portfolio/ana.png) center center; }
-
 .bg-earth { background: url(img/portfolio/movie-earth.png) center center; }
 .bg-fish  { background: url(img/portfolio/movie-fish.png) center center; }
 .bg-sns   { background: url(img/portfolio/movie-sns.png) center center; }
@@ -131,27 +143,12 @@ h2 { font-size: 40px; }
 .bg-remix { background: url(img/portfolio/music-remix.png) center center; }
 .bg-kanie { background: url(img/portfolio/music-kanie.png) center center; }
 
-
-
-
-.bg-web,
-.bg-creat,
-.bg-activ,
-.bg-Lab89,
-.bg-UIUX,
-.bg-hero,
-.bg-k2m ,
-.bg-plus,
-.bg-shoespicks,
-.bg-ana,
-.bg-earth,
-.bg-fish,
-.bg-sns,
-.bg-tf,
-.bg-train,
-.bg-vrwatch,
-.bg-remix,
-.bg-kanie { background-size: cover !important; }
+.bg-web, .bg-creat, .bg-activ, .bg-Lab89, .bg-UIUX,
+.bg-hero, .bg-k2m ,.bg-plus, .bg-shoespicks, .bg-ana, 
+.bg-earth, .bg-fish, .bg-sns, .bg-tf, .bg-train,
+.bg-vrwatch, .bg-remix, .bg-kanie, .bg-webDesign, .bg-app, 
+.bg-analy, .bg-seo, .bg-ad, .bg-mante
+{ background-size: cover !important; }
 
 .textS { font-size: 16px; }
 .textM { font-size: 30px; }
@@ -444,6 +441,15 @@ Concept  Index.html
 Service  Index.html 
 ================*/
 /* PCサイズ用コード */
+.S-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 156px;
+}
+.S-container {
+  width: 25%;
+  margin-bottom: 80px;
+}
 .T-Container {
   width: 17.2vw;
   height: 172px;
@@ -510,13 +516,12 @@ About  Index.html
   width: 182px;
   height: 159px;
   border-radius: 70% 70% 30% 30% / 80% 80% 60% 60%;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 .S-texBox {
   width: 225px;
   margin: 0 auto;
 }
-.bg-UIUX { background: url(img/service/layout.png) center center; }
 
 /*===========================================*/
 /*=== PORTFOLIO.htmlのスタイル　===============*/
@@ -614,6 +619,7 @@ Tab Bar
 WEB  portfolio.html
 ================*/
 /* PCサイズ用コード */
+.S1-Sec > div,
 .P1-Sec > div {
   position: relative;
   top: 50%;
