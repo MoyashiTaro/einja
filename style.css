@@ -150,7 +150,7 @@ h2 { font-size: 40px; }
 .bg-earth, .bg-fish, .bg-sns, .bg-tf, .bg-train,
 .bg-vrwatch, .bg-remix, .bg-kanie, 
 /* Serviceページ  Icon */
-.bg-UIUX,　.bg-webDesign, .bg-app, .bg-analy, .bg-seo, .bg-ad, 
+.bg-UIUX, .bg-webDesign, .bg-app, .bg-analy, .bg-seo, .bg-ad,
 .bg-mante { background-size: cover !important; }
 
 .textS { font-size: 16px; }
@@ -458,6 +458,26 @@ Service  Index.html
   height: 172px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1260px) {
+  .S-wrap {
+    padding: 0px 60px;
+  }
+  .S-container {
+    width: 33%;
+    margin-bottom: 80px;
+  }
+}
+/*
+@media screen and (max-width: 1024px) {
+  .S-wrap {
+    padding: 0px 60px;
+  }
+  .S-container {
+    width: 50%;
+    margin-bottom: 80px;
+  }
+}*/
+
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
 @media screen and (max-width: 768px) {
