@@ -93,6 +93,7 @@ h2 { font-size: 40px; }
 .spaceM { padding-bottom: 60px; }
 .spaceL { padding-bottom: 80px; }
 .spaceTL { padding-top: 80px; }
+.LspaceL { margin: 0px 10.69vw}
 
 .fw-bold { font-weight: bold; }
 
@@ -112,7 +113,7 @@ h2 { font-size: 40px; }
 .bg-activ { background: url(img/icon/activity.png) center center; }
 /* 背景画像_Top */
 .bg-T_rise { background: url(T_rise.jpg) no-repeat center center; }
-.bg-T_ALink{ background: url(T_ALink.png) no-repeat center center; }
+.bg-T_ALink{ background: url(T_ALink.png) no-repeat center center; width: 49.86vw 222px; }
 .T_ALink { background: url(T_ALink.png) no-repeat center center; }
 
 /* 背景画像_Service */
@@ -145,6 +146,18 @@ h2 { font-size: 40px; }
 
 /* Topページ  serviceセクション */
 .bg-web, .bg-creat, .bg-activ, 
+.serviceWrapper{
+  display: flex;
+  width: 67.01vw;
+  text-align: center;
+  margin: 0px 16vw;
+}
+
+.serviceContainer{
+  width: 15.27vw;
+  height: 172px;
+}
+
 /* Portfolioページ */
 .bg-Lab89, .bg-hero, .bg-k2m ,.bg-plus, .bg-shoespicks, .bg-ana, 
 .bg-earth, .bg-fish, .bg-sns, .bg-tf, .bg-train,
@@ -160,18 +173,22 @@ h2 { font-size: 40px; }
 
 /* ボタン */
 .btn {
-  width: 230px;
   text-align:center;
   padding: 12px 0 12px 0;
   border-radius:80px;
   display: inline-block;
+  margin: 80px 0px;
 }
 
 .btn-width {width: 230px;}
 
-.btn-padding{padding: 80 0}
+.btnText{
+  text-align: center;
+padding-left: 20px;}
 
-.right-vector{padding:0 12px }
+.right-vector{padding-left:12px }
+
+
 
 .S1-Sec,
 .P1-Sec,
@@ -350,6 +367,7 @@ Top  Index
 
 /*お問い合わせフォーム*/
 
+
 .cp_iptxt {
 	position: relative;
 	width: 80%;
@@ -360,16 +378,17 @@ body{
 }
 
 .formWrapper{
-    width:43.05vw;
-    height:477px;
-	background-color: #131E4C;
-	border-radius: 20px;
+  width:43.05vw;
+  height:477px;
+  background-color: #131E4C;
+  border-radius: 20px;
+  margin: auto;
 }
 
 .formcontainer{
 	width: 35.76vw;
 	height: 347px;
-	padding: 71.5px 52.5px 58.5px 52.5px;
+  padding: 47.5px 52.5px 0px 52.5px;
 }
 
 .formFlame-S{
@@ -387,7 +406,6 @@ textarea {
 	resize: none;
 	width: 35.76vw;
 	height: 93px;
-  margin-bottom: 43px;
   border-radius: 10px;
 }
 
