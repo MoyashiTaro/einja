@@ -149,6 +149,7 @@ h2 { font-size: 40px; }
 .bg-plus  { background: url(img/portfolio/plus.png) center center; }
 .bg-shoespicks { background: url(img/portfolio/shoespicks.png) center center; }
 .bg-ana   { background: url(img/portfolio/ana.png) center center; }
+.bg-bts   { background: url(img/portfolio/bts.png) center center; }
 .bg-earth { background: url(img/portfolio/movie-earth.png) center center; }
 .bg-fish  { background: url(img/portfolio/movie-fish.png) center center; }
 .bg-sns   { background: url(img/portfolio/movie-sns.png) center center; }
@@ -176,8 +177,8 @@ h2 { font-size: 40px; }
 .bg-web, .bg-creat, .bg-activ, 
 /* Portfolioページ */
 .bg-Lab89, .bg-hero, .bg-k2m ,.bg-plus, .bg-shoespicks, .bg-ana, 
-.bg-earth, .bg-fish, .bg-sns, .bg-tf, .bg-train,
-.bg-vrwatch, .bg-remix, .bg-kanie, 
+.bg-bts, .bg-earth, .bg-fish, .bg-sns, .bg-tf, .bg-train,
+.bg-vrwatch, .bg-remix, .bg-kanie,
 /* Serviceページ  Icon */
 .bg-UIUX, .bg-webDesign, .bg-app, .bg-analy, .bg-seo, .bg-ad, .bg-mante, 
 .bg-movie, .bg-music, .bg-reflet, .bg-card,
@@ -361,8 +362,10 @@ footer {
 @media screen and (max-width: 768px) {
 
 }
-@media screen and (max-width: 375px) {
-
+@media screen and (max-width: 414px) {
+  .bg-footerLogo {
+    left: 41%;
+  }
 }
 
 /*========================================*/
@@ -521,6 +524,9 @@ Service  Index.html
   }
 }
 @media screen and (max-width: 768px) {
+  .S-wrap {
+    padding: 0px 40px;
+  }
   .S5-Sec .S-texBox {
     width: 194px;
   }
@@ -533,6 +539,9 @@ Service  Index.html
   }
   .S5-Sec .S-container {
     width: 100%;
+  }
+  .S-texBox {
+    width: 100% !important;
   }
 }
 @media screen and (max-width: 375px) {
