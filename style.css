@@ -128,6 +128,20 @@ h2 { font-size: 40px; }
 .bg-ad { background: url(img/service/ad.png) no-repeat center center; }
 .bg-mante { background: url(img/service/mante.png) no-repeat center center; }
 
+.bg-movie { background: url(img/service/movie.png) no-repeat center center; }
+.bg-music { background: url(img/service/music.png) no-repeat center center; }
+.bg-reflet { background: url(img/service/reflet.png) no-repeat center center; }
+.bg-card { background: url(img/service/card.png) no-repeat center center; }
+
+.bg-talking { background: url(img/service/talking.png) no-repeat center center; }
+.bg-dj { background: url(img/service/dj.png) no-repeat center center; }
+.bg-playing { background: url(img/service/playing.png) no-repeat center center; }
+
+.bg-range { background: url(img/service/range.png) no-repeat center center; }
+.bg-environment { background: url(img/service/environment.png) no-repeat center center; }
+.bg-elements { background: url(img/service/elements.png) no-repeat center center; }
+
+
 /* 背景画像_Portfolio */
 .bg-Lab89 { background: url(img/portfolio/Lab89.png) center center; }
 .bg-hero  { background: url(img/portfolio/hero.png) center center; }
@@ -158,13 +172,18 @@ h2 { font-size: 40px; }
   height: 172px;
 }
 
+/* Topページ  serviceセクション */
+.bg-web, .bg-creat, .bg-activ, 
 /* Portfolioページ */
 .bg-Lab89, .bg-hero, .bg-k2m ,.bg-plus, .bg-shoespicks, .bg-ana, 
 .bg-earth, .bg-fish, .bg-sns, .bg-tf, .bg-train,
 .bg-vrwatch, .bg-remix, .bg-kanie, 
 /* Serviceページ  Icon */
-.bg-UIUX, .bg-webDesign, .bg-app, .bg-analy, .bg-seo, .bg-ad,
-.bg-mante { background-size: cover !important; }
+.bg-UIUX, .bg-webDesign, .bg-app, .bg-analy, .bg-seo, .bg-ad, .bg-mante, 
+.bg-movie, .bg-music, .bg-reflet, .bg-card,
+.bg-talking, .bg-dj, .bg-playing,
+.bg-range, .bg-environment, .bg-elements
+{ background-size: cover !important; }
 
 .textS { font-size: 16px; }
 .textM { font-size: 30px; }
@@ -471,10 +490,16 @@ Service  Index.html
   width: 25%;
   margin-bottom: 80px;
 }
+.S5-Sec .S-container {
+    width: 33%;
+}
 .T-Container {
   width: 17.2vw;
   height: 172px;
   margin: 0 auto;
+}
+.S-wrap + p {
+  text-align: center;
 }
 @media screen and (max-width: 1260px) {
   .S-wrap {
@@ -485,7 +510,7 @@ Service  Index.html
     margin-bottom: 80px;
   }
 }
-/*
+
 @media screen and (max-width: 1024px) {
   .S-wrap {
     padding: 0px 60px;
@@ -494,12 +519,21 @@ Service  Index.html
     width: 50%;
     margin-bottom: 80px;
   }
-}*/
-
-/* スマホ（３７５）
-   タブレット（７６８）サイズ用 コード*/
+}
 @media screen and (max-width: 768px) {
+  .S5-Sec .S-texBox {
+    width: 194px;
+  }
+}
 
+@media screen and (max-width: 414px) {
+  .S-container {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .S5-Sec .S-container {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 375px) {
 
@@ -562,6 +596,9 @@ About  Index.html
 .S-texBox {
   width: 225px;
   margin: 0 auto;
+}
+.S-texBox p {
+  text-align: left;
 }
 
 /*===========================================*/
