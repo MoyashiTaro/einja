@@ -108,56 +108,59 @@ h2 { font-size: 40px; }
 .bc-bluegradate { background: linear-gradient(0.25turn, #18D0CA, #11CBCE, #1EBAD6, #23B2E4, #349FEE, #3792F7); } /* Aboutの背景色 */
 
 /*　背景画像_共通　*/
-.bg-web   { background: url(img/icon/web.png) center center; }
-.bg-creat { background: url(img/icon/creative.png) center center; }
-.bg-activ { background: url(img/icon/activity.png) center center; }
+.bg-web   { background: url(img/icon/web.png); }
+.bg-creat { background: url(img/icon/creative.png); }
+.bg-activ { background: url(img/icon/activity.png); }
 /* 背景画像_Top */
-.bg-T_rise { background: url(T_rise.jpg) no-repeat center center; }
-.bg-T_ALink{ background: url(T_ALink.png) no-repeat center center; width: 49.86vw 222px; }
-.T_ALink { background: url(T_ALink.png) no-repeat center center; }
+.bg-T_rise { background: url(T_rise.jpg); }
+.bg-T_ALink{ background: url(T_ALink.png); width: 49.86vw 222px; }
+.T_ALink { background: url(T_ALink.png); }
 
 /* 背景画像_Service */
-.bg-S_sky { background: url(img/bg/S_sky.png) no-repeat center center; }
+.bg-S_sky { background: url(img/bg/S_sky.png); }
 
 /* 背景画像_Service Icon */
-.bg-UIUX { background: url(img/service/layout.png) center center; }
-.bg-webDesign { background: url(img/service/webDesign.png) no-repeat center center; }
-.bg-app { background: url(img/service/app.png) no-repeat center center; }
-.bg-analy { background: url(img/service/analy.png) no-repeat center center; }
-.bg-seo { background: url(img/service/seo.png) no-repeat center center; }
-.bg-ad { background: url(img/service/ad.png) no-repeat center center; }
-.bg-mante { background: url(img/service/mante.png) no-repeat center center; }
-
-.bg-movie { background: url(img/service/movie.png) no-repeat center center; }
-.bg-music { background: url(img/service/music.png) no-repeat center center; }
-.bg-reflet { background: url(img/service/reflet.png) no-repeat center center; }
-.bg-card { background: url(img/service/card.png) no-repeat center center; }
-
-.bg-talking { background: url(img/service/talking.png) no-repeat center center; }
-.bg-dj { background: url(img/service/dj.png) no-repeat center center; }
-.bg-playing { background: url(img/service/playing.png) no-repeat center center; }
-
-.bg-range { background: url(img/service/range.png) no-repeat center center; }
-.bg-environment { background: url(img/service/environment.png) no-repeat center center; }
-.bg-elements { background: url(img/service/elements.png) no-repeat center center; }
-
+.bg-UIUX { background: url(img/service/layout.png); }
+.bg-webDesign { background: url(img/service/webDesign.png); }
+.bg-app { background: url(img/service/app.png); }
+.bg-analy { background: url(img/service/analy.png); }
+.bg-seo { background: url(img/service/seo.png); }
+.bg-ad { background: url(img/service/ad.png); }
+.bg-mante { background: url(img/service/mante.png); }
+.bg-movie { background: url(img/service/movie.png); }
+.bg-music { background: url(img/service/music.png); }
+.bg-reflet { background: url(img/service/reflet.png); }
+.bg-card { background: url(img/service/card.png); }
+.bg-talking { background: url(img/service/talking.png); }
+.bg-dj { background: url(img/service/dj.png); }
+.bg-playing { background: url(img/service/playing.png); }
+.bg-range { background: url(img/service/range.png); }
+.bg-environment { background: url(img/service/environment.png); }
+.bg-elements { background: url(img/service/elements.png); }
 
 /* 背景画像_Portfolio */
-.bg-Lab89 { background: url(img/portfolio/Lab89.png) center center; }
-.bg-hero  { background: url(img/portfolio/hero.png) center center; }
-.bg-k2m   { background: url(img/portfolio/k2m.png) center center; }
-.bg-plus  { background: url(img/portfolio/plus.png) center center; }
-.bg-shoespicks { background: url(img/portfolio/shoespicks.png) center center; }
-.bg-ana   { background: url(img/portfolio/ana.png) center center; }
-.bg-bts   { background: url(img/portfolio/bts.png) center center; }
-.bg-earth { background: url(img/portfolio/movie-earth.png) center center; }
-.bg-fish  { background: url(img/portfolio/movie-fish.png) center center; }
-.bg-sns   { background: url(img/portfolio/movie-sns.png) center center; }
-.bg-tf    { background: url(img/portfolio/movie-tf.png) center center; }
-.bg-train { background: url(img/portfolio/movie-train.png) center center; }
-.bg-vrwatch{ background: url(img/portfolio/movie-vrwatch.png) center center; }
-.bg-remix { background: url(img/portfolio/music-remix.png) center center; }
-.bg-kanie { background: url(img/portfolio/music-kanie.png) center center; }
+.bg-P_mtHida { 
+  background: url(img/bg/P_mtHida.png) no-repeat center 10%;
+  background-size: cover;
+}
+.bg-P_cloud  { background: url(img/bg/P_cloud.png); }
+
+/* ポートフォリオ背景画像_Portfolio */
+.bg-Lab89 { background: url(img/portfolio/Lab89.png); }
+.bg-hero  { background: url(img/portfolio/hero.png); }
+.bg-k2m   { background: url(img/portfolio/k2m.png); }
+.bg-plus  { background: url(img/portfolio/plus.png); }
+.bg-shoespicks { background: url(img/portfolio/shoespicks.png); }
+.bg-ana   { background: url(img/portfolio/ana.png); }
+.bg-bts   { background: url(img/portfolio/bts.png); }
+.bg-earth { background: url(img/portfolio/movie-earth.png); }
+.bg-fish  { background: url(img/portfolio/movie-fish.png); }
+.bg-sns   { background: url(img/portfolio/movie-sns.png); }
+.bg-tf    { background: url(img/portfolio/movie-tf.png); }
+.bg-train { background: url(img/portfolio/movie-train.png); }
+.bg-vrwatch{ background: url(img/portfolio/movie-vrwatch.png); }
+.bg-remix { background: url(img/portfolio/music-remix.png); }
+.bg-kanie { background: url(img/portfolio/music-kanie.png); }
 
 /* Topページ  serviceセクション */
 .bg-web, .bg-creat, .bg-activ, 
@@ -173,18 +176,27 @@ h2 { font-size: 40px; }
   height: 172px;
 }
 
+/* Topページ  背景 */
+.bg-T_rise, .bg-T_ALink, .T_ALink,
 /* Topページ  serviceセクション */
 .bg-web, .bg-creat, .bg-activ, 
+/* Portofolio 背景*/
+.bg-P_cloud,
 /* Portfolioページ */
 .bg-Lab89, .bg-hero, .bg-k2m ,.bg-plus, .bg-shoespicks, .bg-ana, 
 .bg-bts, .bg-earth, .bg-fish, .bg-sns, .bg-tf, .bg-train,
 .bg-vrwatch, .bg-remix, .bg-kanie,
+/* Service 背景 */
+.bg-S_sky,
 /* Serviceページ  Icon */
 .bg-UIUX, .bg-webDesign, .bg-app, .bg-analy, .bg-seo, .bg-ad, .bg-mante, 
 .bg-movie, .bg-music, .bg-reflet, .bg-card,
 .bg-talking, .bg-dj, .bg-playing,
-.bg-range, .bg-environment, .bg-elements
-{ background-size: cover !important; }
+.bg-range, .bg-environment, .bg-elements { 
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+ }
 
 .textS { font-size: 16px; }
 .textM { font-size: 30px; }
@@ -213,7 +225,7 @@ padding-left: 20px;}
 .S1-Sec,
 .P1-Sec,
 .A1-Sec {
-  height: 530px;
+  height: 645px;
 }
 
 /* スマホ（３７５）
@@ -552,6 +564,12 @@ Service  Index.html
 Portfolio  Index.html
 ================*/
 /* PCサイズ用コード */
+.P1-Sec:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: ;
+}
 .T4-slider-container {
   padding: 0 188px;
 }
@@ -619,13 +637,14 @@ Tab Bar
 ================*/
 .tabs{
   position: relative;
-  width: 80vw;
-  margin: 7% auto 0;
+  margin: 0 auto;
   text-align: left;
 }
 
 .tab-buttons {
   position: relative;
+  width: 80vw;
+  margin: 0 auto 80px;
 }
 
 .tab-buttons:after {
@@ -655,7 +674,7 @@ Tab Bar
   position: relative;
   top: 20px;
   display: inline-block;
-  padding: 15px;
+  /*padding: 15px;*/
 }
 
 #lamp{
@@ -713,12 +732,22 @@ WEB  portfolio.html
   transform: translateY(-50%);
 }
 
-.P-Wrap { display: flex; }
+.P-Wrap {
+  display: flex;
+  padding: 0 120px;
+}
+
+.P-Wrap:nth-child(2n+1) {
+  background: url(img/bg/P_cloud.png) no-repeat;
+  background-size: cover;
+  padding: 17% 120px;
+}
 
 .P-Wrap:nth-child(2n+1) .P-Container {
   order: 1;
   padding-left: 4.7vw;
-  padding-right: 0 ;
+  padding-right: 0;
+  color: #093569;
 }
 
 .P-Container { 
@@ -738,7 +767,10 @@ WEB  portfolio.html
 }
 .P-lists {
   position: absolute;
-  bottom: -2%;
+  bottom: -1%;
+}
+.cloud {
+  width: 100vw;
 }
 
 /* スマホ（３７５）
