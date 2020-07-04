@@ -111,6 +111,7 @@ h2 { font-size: 40px; }
 .bg-web   { background: url(img/icon/web.png); }
 .bg-creat { background: url(img/icon/creative.png); }
 .bg-activ { background: url(img/icon/activity.png); }
+
 /* 背景画像_Top */
 .bg-T_rise { background: url(T_rise.jpg); }
 .bg-T_ALink{ background: url(T_ALink.png); width: 49.86vw 222px; }
@@ -118,8 +119,6 @@ h2 { font-size: 40px; }
 
 /* 背景画像_Service */
 .bg-S_sky { background: url(img/bg/S_sky.png); }
-
-/* 背景画像_Service Icon */
 .bg-UIUX { background: url(img/service/layout.png); }
 .bg-webDesign { background: url(img/service/webDesign.png); }
 .bg-app { background: url(img/service/app.png); }
@@ -144,8 +143,6 @@ h2 { font-size: 40px; }
   background-size: cover;
 }
 .bg-P_cloud  { background: url(img/bg/P_cloud.png); }
-
-/* ポートフォリオ背景画像_Portfolio */
 .bg-Lab89 { background: url(img/portfolio/Lab89.png); }
 .bg-hero  { background: url(img/portfolio/hero.png); }
 .bg-k2m   { background: url(img/portfolio/k2m.png); }
@@ -162,19 +159,17 @@ h2 { font-size: 40px; }
 .bg-remix { background: url(img/portfolio/music-remix.png); }
 .bg-kanie { background: url(img/portfolio/music-kanie.png); }
 
-/* Topページ  serviceセクション */
-.bg-web, .bg-creat, .bg-activ, 
-.serviceWrapper{
-  display: flex;
-  width: 67.01vw;
-  text-align: center;
-  margin: 0px 16vw 80px;
+/* 背景画像_about */
+.bg-A_sky {
+  background: url(img/bg/A_sky.png) no-repeat center 20%;
+  background-size: cover;
 }
+.bg-facebook { background: url(img/icon/socialicon/f_logo_RGB-Blue_58.png); }
+.bg-instagram { background: url(img/icon/socialicon/IG_Glyph_Fill.png); }
+.bg-twitter { background: url(img/icon/socialicon/Twitter_Social_Icon_Circle_Color.png); }
+.bg-github { background: url(img/icon/socialicon/GitHub-Mark-64px.png); }
 
-.serviceContainer{
-  width: 15.27vw;
-  height: 172px;
-}
+
 
 /* Topページ  背景 */
 .bg-T_rise, .bg-T_ALink, .T_ALink,
@@ -192,12 +187,15 @@ h2 { font-size: 40px; }
 .bg-UIUX, .bg-webDesign, .bg-app, .bg-analy, .bg-seo, .bg-ad, .bg-mante, 
 .bg-movie, .bg-music, .bg-reflet, .bg-card,
 .bg-talking, .bg-dj, .bg-playing,
-.bg-range, .bg-environment, .bg-elements { 
+.bg-range, .bg-environment, .bg-elements,
+/* aboutページ */
+.bg-facebook, .bg-instagram, .bg-twitter, .bg-github { 
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
- }
+}
 
+.textXS { font-size: 13px; }
 .textS { font-size: 16px; }
 .textM { font-size: 30px; }
 .textL { font-size: 58px; }
@@ -215,193 +213,206 @@ h2 { font-size: 40px; }
 
 .btnText{
   text-align: center;
-padding-left: 20px;}
-
-.right-vector{padding-left:12px }
-
-
-
-.S1-Sec,
-.P1-Sec,
-.A1-Sec {
-  height: 645px;
-}
-
-/* スマホ（３７５）
-   タブレット（７６８）サイズ用 コード*/
-@media screen and (max-width: 768px) {
-　
-}
-@media screen and (max-width: 375px) {
-
-}
-
-/*==============
-HumbergerMenu All
-================*/
-/* PCサイズ用コード */
-.menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 0;
-  height: 100%;
-  z-index: 998;
-  transition: width .2s;
-}
-
-.menu--isOpen { width: 100vw; }/* メニューの範囲 */
-
-.menu__button {
-  position: fixed;
-  right: 10px;
-  top: 10px;
-  width: 50px;
-  height: 50px;
-  z-index: 999;
-  background-color: rgb(255, 255, 255, 0);
-  border-radius: 5px;
-  border: none;
-}
-
-.menu span {
-  display: block;
-  width: 80%;
-  margin: auto;
-  height: 4px;
-  background-color: #fff;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: calc((100% - 4px)/2);
-  border-radius: 3px;
-  transition: .2s;
-}
-
-.menu__lineTop { transform: translateY(-10px); }
-.menu__lineMiddle {}
-.menu__lineBottom { transform: translateY(10px); }
-.menu--isOpen .menu__lineTop { transform: rotate(45deg); }
-.menu--isOpen .menu__lineMiddle { opacity: 0; }
-.menu--isOpen .menu__lineBottom { transform: rotate(-45deg); }
-
-.underline {
-  width: 64px !important;
-  height: 0px;
-  border: solid #fff 2px;
-  display: inline-block;
-}
-
-.menuContainer {
-  width: 24.71vw;
-  height: 100vh;
-  display: inline-block;
-}
-
-.menuContainer :hover {
-  width: 28vw;
-  background: url(img/bg/menu-gradation.png);
-  background-size: cover;
-  z-index: 20;
-  transition: .4s;
-}
-
-.menuBox {
-  width: 24.71vw;
-  height: 100vh;
-  display: inline-block;
-  text-align: center;
-  position: relative;
-}
-
-.menuContent {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform : translate(-50%,-50%);
-  transform : translate(-50%,-50%);
-}
-
-.menuBox :hover { background: rgb(255, 255, 255, 0) !important; }
-
-
-/* スマホ（３７５）
-   タブレット（７６８）サイズ用 コード*/
-@media screen and (max-width: 768px) {
-
-}
-@media screen and (max-width: 375px) {
-
-}
-
-/*==============
-Footer All
-================*/
-/* PCサイズ用コード */
-footer {
-  width: 100%;
-}
-.bg-footerLogo {
-  position: relative;
-  top: -5rem;
-  left: 47%;
-  width: 68px;
-  height: 87px;
-  margin-top: 80px;
-  background: url(img/icon/einja-footerLogo.png);
-  background-size: cover;
-}
-
-.footer-logo {
-  display: block;
-  width: 168px;
-  height: auto;
-  margin: 0 auto;
-}
-.footer-lists {
-  text-align: center;
-}
-.footer-lists a {
-  transition: ease .5s;
-}
-.footer-lists li:hover a{
-  color: #000;
-}
-
-/* スマホ（３７５）
-   タブレット（７６８）サイズ用 コード*/
-@media screen and (max-width: 768px) {
-
-}
-@media screen and (max-width: 414px) {
-  .bg-footerLogo {
-    left: 41%;
+  padding-left: 20px;}
+  
+  .right-vector{padding-left:12px }
+  
+  
+  
+  .S1-Sec,
+  .P1-Sec,
+  .A1-Sec {
+    height: 645px;
   }
-}
-
-/*========================================*/
-/*===　INDEX.html（Topページ）のスタイル　===*/
-/*========================================*/
-
-/*==============
-Top  Index 
-================*/
-/*===============　井口イジり中　=================*/
-/* H1 Einjaのスタイル */
-.T1-h1 {
-  width: 275.98px;
-  height: 103.63px;
-}
-
-.T1-Sec {
-
-
-}
-
-/*お問い合わせフォーム*/
-
-
-.cp_iptxt {
+  
+  /* スマホ（３７５）
+  タブレット（７６８）サイズ用 コード*/
+  @media screen and (max-width: 768px) {
+    
+  }
+  @media screen and (max-width: 375px) {
+    
+  }
+  
+  /*==============
+  HumbergerMenu All
+  ================*/
+  /* PCサイズ用コード */
+  .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    z-index: 998;
+    transition: width .2s;
+  }
+  
+  .menu--isOpen { width: 100vw; }/* メニューの範囲 */
+  
+  .menu__button {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+    background-color: rgb(255, 255, 255, 0);
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .menu span {
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc((100% - 4px)/2);
+    border-radius: 3px;
+    transition: .2s;
+  }
+  
+  .menu__lineTop { transform: translateY(-10px); }
+  .menu__lineMiddle {}
+  .menu__lineBottom { transform: translateY(10px); }
+  .menu--isOpen .menu__lineTop { transform: rotate(45deg); }
+  .menu--isOpen .menu__lineMiddle { opacity: 0; }
+  .menu--isOpen .menu__lineBottom { transform: rotate(-45deg); }
+  
+  .underline {
+    width: 64px !important;
+    height: 0px;
+    border: solid #fff 2px;
+    display: inline-block;
+  }
+  
+  .menuContainer {
+    width: 24.71vw;
+    height: 100vh;
+    display: inline-block;
+  }
+  
+  .menuContainer :hover {
+    width: 28vw;
+    background: url(img/bg/menu-gradation.png);
+    background-size: cover;
+    z-index: 20;
+    transition: .4s;
+  }
+  
+  .menuBox {
+    width: 24.71vw;
+    height: 100vh;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+  }
+  
+  .menuContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+  }
+  
+  .menuBox :hover { background: rgb(255, 255, 255, 0) !important; }
+  
+  
+  /* スマホ（３７５）
+  タブレット（７６８）サイズ用 コード*/
+  @media screen and (max-width: 768px) {
+    
+  }
+  @media screen and (max-width: 375px) {
+    
+  }
+  
+  /*==============
+  Footer All
+  ================*/
+  /* PCサイズ用コード */
+  footer {
+    width: 100%;
+  }
+  .bg-footerLogo {
+    position: relative;
+    top: -5rem;
+    left: 47%;
+    width: 68px;
+    height: 87px;
+    margin-top: 80px;
+    background: url(img/icon/einja-footerLogo.png);
+    background-size: cover;
+  }
+  
+  .footer-logo {
+    display: block;
+    width: 168px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .footer-lists {
+    text-align: center;
+  }
+  .footer-lists a {
+    transition: ease .5s;
+  }
+  .footer-lists li:hover a{
+    color: #000;
+  }
+  
+  /* スマホ（３７５）
+  タブレット（７６８）サイズ用 コード*/
+  @media screen and (max-width: 768px) {
+    
+  }
+  @media screen and (max-width: 414px) {
+    .bg-footerLogo {
+      left: 41%;
+    }
+  }
+  
+  /*========================================*/
+  /*===　INDEX.html（Topページ）のスタイル　===*/
+  /*========================================*/
+  
+  /*==============
+  Top  Index 
+  ================*/
+  /*===============　井口イジり中　=================*/
+  /* H1 Einjaのスタイル */
+  .T1-h1 {
+    width: 275.98px;
+    height: 103.63px;
+  }
+  
+  .T1-Sec {
+    
+    
+  }
+  /* Topページ  serviceセクション */
+  .bg-web, .bg-creat, .bg-activ, 
+  .serviceWrapper{
+    display: flex;
+    width: 67.01vw;
+    text-align: center;
+    margin: 0px 16vw 80px;
+  }
+  
+  .serviceContainer{
+    width: 15.27vw;
+    height: 172px;
+  }
+  
+  /*お問い合わせフォーム*/
+  
+  
+  .cp_iptxt {
 	position: relative;
 	width: 80%;
 	padding: 40px 3%;
@@ -796,8 +807,9 @@ WEB  portfolio.html
   margin: 0 auto;
 }
 .profile {
-  width: 251px;
+  width: 300px;
   margin: 0 auto;
+  text-align: left;
 }
 
 .memberface {
@@ -805,34 +817,35 @@ WEB  portfolio.html
   height: 112px;/*高さ*/
   border-radius: 50%;/*角丸*/
   position: relative;
-  top: 36px;
+  top: 56px;
   margin: 0 auto;
 }
 
 .socialBox {
   position: relative;
-  bottom: -5vh;
+  bottom: -3vh;
 }
 
 .socialicon {
-  width: 45px;/*幅*/
-	height: 45px;/*高さ*/
-  border-radius: 50%;/*角丸*/
+  width: 48px;/*幅*/
+  height: 48px;/*高さ*/
   margin: 0 17.5px;
   display: inline-table;
 }
 
 .A-Container1 {
-  width: 308px;
-  height: 93px;
+  width: 368px;
+  height: 113px;
   border-radius: 10px 10px 0 0;
+  margin: 0 auto;
 }
 
 .A-Container2 {
-  width: 308px;
-  height: 314px; /* 370px-56px */
+  width: 368px;
+  height: 394px; /* 370px-56px */
   padding-top: 56px; /* memberfaceの半分 */
   margin-top: 4.6px;
+  margin: 0 auto;
 }
 
 .proftag {
@@ -848,3 +861,16 @@ WEB  portfolio.html
   display: table-cell;
   padding: 22px;
 }
+
+/* スマホ（３７５）
+   タブレット（７６８）サイズ用 コード*/
+   @media screen and (max-width: 768px) {
+    .A-Container1, .A-Container2 { width: 348px; }
+    .A-Wrap {
+      padding: 14px;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 375px) {
+  
+  }
