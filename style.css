@@ -168,7 +168,7 @@ h2 { font-size: 40px; }
   display: flex;
   width: 67.01vw;
   text-align: center;
-  margin: 0px 16vw;
+  margin: 0px 16vw 80px;
 }
 
 .serviceContainer{
@@ -209,7 +209,6 @@ h2 { font-size: 40px; }
   padding: 12px 0 12px 0;
   border-radius:80px;
   display: inline-block;
-  margin: 80px 0px;
 }
 
 .btn-width {width: 230px;}
@@ -509,7 +508,7 @@ Service  Index.html
     width: 33%;
 }
 .T-Container {
-  width: 17.2vw;
+  width: 15.2vw;
   height: 172px;
   margin: 0 auto;
 }
