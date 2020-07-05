@@ -76,6 +76,7 @@ body {
 /*　文字サイズ　*/
 h1 { font-size: 58px; }
 h2 { font-size: 40px; }
+.textXS { font-size: 13px; }
 .textS   { font-size: 16px; }
 .textM   { font-size: 30px; }
 .textL   { font-size: 58px; }
@@ -195,11 +196,6 @@ h2 { font-size: 40px; }
   background-repeat: no-repeat !important;
 }
 
-.textXS { font-size: 13px; }
-.textS { font-size: 16px; }
-.textM { font-size: 30px; }
-.textL { font-size: 58px; }
-.textSub { font-size: 25px; }
 
 /* ボタン */
 .btn {
@@ -228,7 +224,12 @@ h2 { font-size: 40px; }
   /* スマホ（３７５）
   タブレット（７６８）サイズ用 コード*/
   @media screen and (max-width: 768px) {
-    
+    h1 { font-size: 35px; }
+    h2 { font-size: 30px; }
+    .textS   { font-size: 13px; }
+    .textM   { font-size: 20px; }
+    .textL   { font-size: 35px; }
+    .textSub { font-size: 25px; }
   }
   @media screen and (max-width: 375px) {
     
@@ -246,6 +247,7 @@ h2 { font-size: 40px; }
     height: 100%;
     z-index: 998;
     transition: width .2s;
+    display: flex;
   }
   
   .menu--isOpen { width: 100vw; }/* メニューの範囲 */
@@ -261,7 +263,8 @@ h2 { font-size: 40px; }
     border-radius: 5px;
     border: none;
   }
-  
+  .menu__button:focus { outline: none; }
+
   .menu span {
     display: block;
     width: 80%;
@@ -291,9 +294,9 @@ h2 { font-size: 40px; }
   }
   
   .menuContainer {
-    width: 24.71vw;
+    width: 24.8vw;
     height: 100vh;
-    display: inline-block;
+    border: 0.1vw solid #3C3939;
   }
   
   .menuContainer :hover {
@@ -305,10 +308,8 @@ h2 { font-size: 40px; }
   }
   
   .menuBox {
-    width: 24.71vw;
+    width: 24.8vw;
     height: 100vh;
-    display: inline-block;
-    text-align: center;
     position: relative;
   }
   
@@ -322,16 +323,19 @@ h2 { font-size: 40px; }
   
   .menuBox :hover { background: rgb(255, 255, 255, 0) !important; }
   
-  
   /* スマホ（３７５）
   タブレット（７６８）サイズ用 コード*/
+  @media screen and (max-width: 1030px) {
+    .h1menu { font-size: 35px; }
+  }
   @media screen and (max-width: 768px) {
     .menuBox, .menuContainer {
       width: 100vw;
-      height: 24.71vh;
+      height: 24.8vh;
       display: block;
     }
     .menuContainer :hover { width: 100vw; }
+    .menu { display: block; }
   }
   @media screen and (max-width: 375px) {
     
