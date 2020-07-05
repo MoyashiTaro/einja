@@ -326,7 +326,12 @@ h2 { font-size: 40px; }
   /* スマホ（３７５）
   タブレット（７６８）サイズ用 コード*/
   @media screen and (max-width: 768px) {
-    
+    .menuBox, .menuContainer {
+      width: 100vw;
+      height: 24.71vh;
+      display: block;
+    }
+    .menuContainer :hover { width: 100vw; }
   }
   @media screen and (max-width: 375px) {
     
@@ -803,8 +808,9 @@ WEB  portfolio.html
 
 .A2-Sec {
   font-family: 'Hiragino Kaku Gothic ProN';
-  display: table;
-  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .profile {
   width: 300px;
@@ -819,11 +825,13 @@ WEB  portfolio.html
   position: relative;
   top: 56px;
   margin: 0 auto;
+  z-index: 1;
 }
 
 .socialBox {
-  position: relative;
-  bottom: -3vh;
+  position: absolute;
+  bottom: 1vh;
+  left: 15%;
 }
 
 .socialicon {
@@ -846,6 +854,7 @@ WEB  portfolio.html
   padding-top: 56px; /* memberfaceの半分 */
   margin-top: 4.6px;
   margin: 0 auto;
+  position: relative;
 }
 
 .proftag {
@@ -857,10 +866,7 @@ WEB  portfolio.html
   line-height: 35px;
   display: inline-block;
 }
-.A-Wrap {
-  display: table-cell;
-  padding: 22px;
-}
+.A-Wrap { padding: 22px; }
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
