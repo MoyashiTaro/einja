@@ -99,6 +99,8 @@ h2 { font-size: 40px; }
 .fw-bold { font-weight: bold; }
 
 /*　背景色　*/
+
+.bc-black   { background-color: #18191B; }
 .bc-white   { background-color: #fff; }
 .bc-Dindigo { background-color: #093768; } /* Serviceの背景色 */
 .bc-indigo  { background-color: #093569; } /* Portfolioの背景色 */
@@ -158,6 +160,7 @@ h2 { font-size: 40px; }
 .bg-vrwatch{ background: url(img/portfolio/movie-vrwatch.png); }
 .bg-remix { background: url(img/portfolio/music-remix.png); }
 .bg-kanie { background: url(img/portfolio/music-kanie.png); }
+.bg-teachrun { background: url(img/portfolio/teachrun.png); }
 
 /* 背景画像_about */
 .bg-A_sky {
@@ -180,7 +183,7 @@ h2 { font-size: 40px; }
 /* Portfolioページ */
 .bg-Lab89, .bg-hero, .bg-k2m ,.bg-plus, .bg-shoespicks, .bg-ana, 
 .bg-bts, .bg-earth, .bg-fish, .bg-sns, .bg-tf, .bg-train,
-.bg-vrwatch, .bg-remix, .bg-kanie,
+.bg-vrwatch, .bg-remix, .bg-kanie, .bg-teachrun,
 /* Service 背景 */
 .bg-S_sky,
 /* Serviceページ  Icon */
@@ -439,9 +442,6 @@ h2 { font-size: 40px; }
 	position: relative;
 	width: 80%;
 	padding: 40px 3%;
-}
-body{
-    background-color:black;
 }
 
 .formWrapper{
@@ -802,7 +802,21 @@ WEB  portfolio.html
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
    @media screen and (max-width: 768px) {
-
+    .P-Wrap {
+      flex-direction: column;
+      padding: 0 120px;
+    }
+    .P-Container {
+      width: 100%;
+      margin-top: 20px;
+      order: 1;
+    }
+    .P-Wrap:nth-child(2n+1) .P-Container {
+      padding-left: 0;
+    }
+    .P-bgContainer {
+      width: 100%;
+    }
   }
   @media screen and (max-width: 375px) {
   
