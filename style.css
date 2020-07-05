@@ -114,9 +114,8 @@ h2 { font-size: 40px; }
 .bg-activ { background: url(img/icon/activity.png); }
 
 /* 背景画像_Top */
-.bg-T_rise { background: url(T_rise.jpg); }
-.bg-T_ALink{ background: url(T_ALink.png); width: 49.86vw 222px; }
-.T_ALink { background: url(T_ALink.png); }
+.bg-T_rise { background: url(img/bg/T_rise.jpg); }
+.bg-T_ALink{ background: url(img/bg/T_ALink.png); }
 
 /* 背景画像_Service */
 .bg-S_sky { background: url(img/bg/S_sky.png); }
@@ -213,12 +212,24 @@ h2 { font-size: 40px; }
   
   .right-vector{padding-left:12px }
   
-  
-  
+
+  /*==============
+  Top Section All
+  ================*/
+  .T1-Sec,
   .S1-Sec,
   .P1-Sec,
   .A1-Sec {
     height: 645px;
+  }
+
+  .T1-Sec > div,
+  .S1-Sec > div,
+  .P1-Sec > div,
+  .A1-Sec > div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
   
   /* スマホ（３７５）
@@ -235,6 +246,8 @@ h2 { font-size: 40px; }
     
   }
   
+
+
   /*==============
   HumbergerMenu All
   ================*/
@@ -393,17 +406,18 @@ h2 { font-size: 40px; }
   /*==============
   Top  Index 
   ================*/
-  /*===============　井口イジり中　=================*/
   /* H1 Einjaのスタイル */
   .T1-h1 {
     width: 275.98px;
     height: 103.63px;
   }
-  
-  .T1-Sec {
-    
-    
+
+  .aboutLinkBox {
+    width: 70vw;
+    height: 40vh;
+    margin: 0 auto;
   }
+ 
   /* Topページ  serviceセクション */
   .bg-web, .bg-creat, .bg-activ, 
   .serviceWrapper{
@@ -744,13 +758,6 @@ Tab Bar
 WEB  portfolio.html
 ================*/
 /* PCサイズ用コード */
-.S1-Sec > div,
-.P1-Sec > div {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 .P-Wrap {
   display: flex;
   padding: 0 120px;
@@ -804,12 +811,6 @@ WEB  portfolio.html
 /*=======================================*/
 /*=== ABOUT.html のスタイル　==============*/
 /*=======================================*/
-.A1-Sec > div {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 .A2-Sec {
   font-family: 'Hiragino Kaku Gothic ProN';
   display: flex;
