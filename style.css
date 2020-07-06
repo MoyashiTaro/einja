@@ -98,6 +98,20 @@ h2 { font-size: 40px; }
 
 .fw-bold { font-weight: bold; }
 
+@media screen and (max-width: 768px) {
+    h1 { font-size: 35px; }
+    h2 { font-size: 30px; }
+    .textS   { font-size: 13px; }
+    .textM   { font-size: 20px; }
+    .textL   { font-size: 35px; }
+    .textSub { font-size: 25px; }
+    .spaceTL { padding-top: 20px; }
+  }
+
+@media screen and (max-width: 414px) {
+  h2 { font-size: 40px; }
+}
+
 /*　背景色　*/
 
 .bc-black   { background-color: #18191B; }
@@ -141,8 +155,15 @@ h2 { font-size: 40px; }
 
 /* 背景画像_Portfolio */
 .bg-P_mtHida { 
-  background: url(img/bg/P_mtHida.png) no-repeat center 10%;
+  background: url(img/bg/P_mtHida.png) no-repeat center -3%;
   background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  .bg-P_mtHida {
+    background: url(img/bg/P_mtHida.png) no-repeat center 125%;
+    background-size: contain;
+    background-color: #fff;
+  }
 }
 .bg-P_cloud  { background: url(img/bg/P_cloud.png); }
 .bg-Lab89 { background: url(img/portfolio/Lab89.png); }
@@ -237,14 +258,25 @@ h2 { font-size: 40px; }
   
   /* スマホ（３７５）
   タブレット（７６８）サイズ用 コード*/
-  @media screen and (max-width: 768px) {
-    h1 { font-size: 35px; }
-    h2 { font-size: 30px; }
-    .textS   { font-size: 13px; }
-    .textM   { font-size: 20px; }
-    .textL   { font-size: 35px; }
-    .textSub { font-size: 25px; }
+  @media screen and (max-width: 1024px) {
+    .T1-Sec,
+    .S1-Sec,
+    .P1-Sec,
+    .A1-Sec {
+      height: 480px;
+    }
   }
+
+  @media screen and (max-width: 768px) {
+    .T1-Sec,
+    .S1-Sec,
+    .P1-Sec,
+    .A1-Sec {
+      height: 341px;
+    }
+  }
+  
+
   @media screen and (max-width: 375px) {
     
   }
@@ -783,9 +815,9 @@ WEB  portfolio.html
 }
 
 .P-bgContainer {
-  /*width: 33.5vw;*/
   width: 50%;
   height: 33.5vh;
+  box-shadow: 0px 0px 11px 0px rgba(20,20,20,0.44);
 }
 
 .P-Box {
@@ -793,7 +825,7 @@ WEB  portfolio.html
 }
 .P-lists {
   position: absolute;
-  bottom: -1%;
+  bottom: 0;
 }
 .cloud {
   width: 100vw;
@@ -802,6 +834,9 @@ WEB  portfolio.html
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
    @media screen and (max-width: 768px) {
+    .portfolio .spaceL {
+      padding-bottom: 40px;
+    }
     .P-Wrap {
       flex-direction: column;
       padding: 0 120px;
@@ -811,13 +846,37 @@ WEB  portfolio.html
       margin-top: 20px;
       order: 1;
     }
+    .P-Wrap:nth-child(2n+1) {
+      margin-bottom: 17%;
+    }
     .P-Wrap:nth-child(2n+1) .P-Container {
       padding-left: 0;
     }
     .P-bgContainer {
       width: 100%;
     }
+    .P-lists {
+      position: absolute;
+      bottom: -30px;
+    }
   }
+  @media screen and (max-width: 414px) {
+    .flex-container {
+      position: relative;
+      left: -20px;
+    }
+    .h2-icons {
+      margin: 0;
+    }
+    .P-Wrap, .P-Wrap:nth-child(2n+1) {
+      padding: 0 30px;
+      margin: 0 0 20%;
+    }
+    .P-lists {
+      bottom: -42px;
+    }
+  }
+    
   @media screen and (max-width: 375px) {
   
   }
