@@ -166,6 +166,13 @@ h2 { font-size: 40px; }
 }
 @media screen and (max-width: 768px) {
   .bg-P_mtHida {
+    background: url(img/bg/P_mtHida.png) no-repeat center -5%;
+    background-size: cover;
+    background-color: #fff;
+  }
+}
+@media screen and (max-width: 414px) {
+  .bg-P_mtHida {
     background: url(img/bg/P_mtHida.png) no-repeat center 125%;
     background-size: contain;
     background-color: #fff;
@@ -331,6 +338,9 @@ h2 { font-size: 40px; }
     top: calc((100% - 4px)/2);
     border-radius: 3px;
     transition: .2s;
+  }
+  .portfolio .menu span {
+    background-color: #3696F4;
   }
   
   .menu__lineTop { transform: translateY(-10px); }
@@ -875,7 +885,7 @@ WEB  portfolio.html
       margin: 0;
     }
     .P-Wrap, .P-Wrap:nth-child(2n+1) {
-      padding: 0 30px;
+      padding: 0 30px 80px;
       margin: 0 0 20%;
     }
     .P-lists {
