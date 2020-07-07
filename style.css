@@ -88,6 +88,12 @@ h2 { font-size: 40px; }
 .fc-indigo  { color: #093768; }  
 .fc-skyblue { color: #3696F4; }
 .fc-orange  { color: #AC210C; }
+.fc-redgradate {
+  color: #ff0135; /* 非対応のブラウザでの文字色を設定 */
+  background: -webkit-linear-gradient(147deg, #931d61 9%, #ff0135 36%, #ff911e 81%); /* 背景色にグラデーションを指定 */
+  -webkit-background-clip: text; /* テキストでくり抜く */
+  -webkit-text-fill-color: transparent; /* くり抜いた部分は背景を表示 */
+  }
 
 /*　要素間隔　*/
 .spaceS { padding-bottom: 20px; }
