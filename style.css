@@ -138,6 +138,10 @@ h2 { font-size: 40px; }
 /* 背景画像_Top */
 .bg-T_rise { background: url(img/bg/T_rise.jpg); }
 .bg-T_ALink{ background: url(img/bg/T_ALink.png); }
+.bg-T_Bsky{ background: url(img/bg/T_Bsky.png); width: 100vw; height: 50vh; }
+.bg-T_mtAlps{ background: url(img/bg/T_mtAlps.png); width: 100vw; height: 50vh; }
+.bg-T_cloud{ background: url(img/bg/T_cloud.png); width: 100vw; height: 40vh; }
+.bg-T_city{ background: url(img/bg/T_city.png); width: 100vw; height: 100vh; }
 
 /* 背景画像_Service */
 .bg-S_sky { background: url(img/bg/S_sky.png); }
@@ -209,7 +213,7 @@ h2 { font-size: 40px; }
 
 
 /* Topページ  背景 */
-.bg-T_rise, .bg-T_ALink, .T_ALink,
+.bg-T_rise, .bg-T_ALink, .T_ALink, .bg-T_Bsky, .bg-T_mtAlps, .bg-T_cloud, .bg-T_city,
 /* Topページ  serviceセクション */
 .bg-web, .bg-creat, .bg-activ, 
 /* Portofolio 背景*/
