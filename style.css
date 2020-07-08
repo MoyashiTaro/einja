@@ -199,6 +199,7 @@ h2 { font-size: 40px; }
 .bg-remix { background: url(img/portfolio/music-remix.png); }
 .bg-kanie { background: url(img/portfolio/music-kanie.png); }
 .bg-teachrun { background: url(img/portfolio/teachrun.png); }
+.bg-travelDJ { background: url(img/portfolio/travelDJ.png); }
 
 /* 背景画像_about */
 .bg-A_sky {
@@ -221,7 +222,7 @@ h2 { font-size: 40px; }
 /* Portfolioページ */
 .bg-Lab89, .bg-hero, .bg-k2m ,.bg-plus, .bg-shoespicks, .bg-ana, 
 .bg-bts, .bg-earth, .bg-fish, .bg-sns, .bg-tf, .bg-train,
-.bg-vrwatch, .bg-remix, .bg-kanie, .bg-teachrun,
+.bg-vrwatch, .bg-remix, .bg-kanie, .bg-teachrun,.bg-travelDJ,
 /* Service 背景 */
 .bg-S_sky,
 /* Serviceページ  Icon */
@@ -834,21 +835,27 @@ WEB  portfolio.html
   padding-right: 4.7vw; 
 }
 
-.P-bgContainer {
+.link-container {
+  position: relative;
   width: 50%;
-  height: 33.5vh;
+  padding-top: 25.8611%;
+}
+
+.P-bgContainer {
+  /*width: 100%;*/
+  /*height: 33.5vh;*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   box-shadow: 0px 0px 11px 0px rgba(20,20,20,0.44);
 }
 
-.P-Box {
-  /*width: 36vw;*/
-}
+
 .P-lists {
   position: absolute;
   bottom: 0;
-}
-.cloud {
-  width: 100vw;
 }
 
 /* スマホ（３７５）
@@ -874,6 +881,10 @@ WEB  portfolio.html
     }
     .P-bgContainer {
       width: 100%;
+    }
+    .link-container {
+      width: 100%;
+      padding-top: 54.8611%;
     }
     .P-lists {
       position: absolute;
@@ -901,7 +912,7 @@ WEB  portfolio.html
   
   }
 
-/*=======================================*/
+/*=======================================
 /*=== ABOUT.html のスタイル　==============*/
 /*=======================================*/
 .A2-Sec {
