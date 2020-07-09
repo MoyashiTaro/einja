@@ -141,7 +141,7 @@ h2 { font-size: 40px; }
 .bg-T_Bsky{ background: url(img/bg/T_Bsky.png); width: 100vw; height: 50vh; }
 .bg-T_mtAlps{ background: url(img/bg/T_mtAlps.png); width: 100vw; height: 50vh; }
 .bg-T_cloud{ background: url(img/bg/T_cloud.png); width: 100vw; height: 40vh; }
-.bg-T_city{ background: url(img/bg/T_city.png); width: 100vw; height: 100vh; }
+.bg-T_city{ background: url(img/bg/T_city.png); height: 100vh; }
 
 /* 背景画像_Service */
 .bg-S_sky { background: url(img/bg/S_sky.png); }
@@ -202,14 +202,13 @@ h2 { font-size: 40px; }
 .bg-travelDJ { background: url(img/portfolio/travelDJ.png); }
 
 /* 背景画像_about */
-.bg-A_sky {
-  background: url(img/bg/A_sky.png) no-repeat center 20%;
-  background-size: cover;
-}
+.bg-A_sky { background: url(img/bg/A_sky.png) }
 .bg-facebook { background: url(img/icon/socialicon/f_logo_RGB-Blue_58.png); }
 .bg-instagram { background: url(img/icon/socialicon/IG_Glyph_Fill.png); }
 .bg-twitter { background: url(img/icon/socialicon/Twitter_Social_Icon_Circle_Color.png); }
 .bg-github { background: url(img/icon/socialicon/GitHub-Mark-64px.png); }
+.bg-google { background: url(img/icon/socialicon/icons8-google-480.png); }
+.bg-youtube { background: url(img/icon/socialicon/youtube_social_squircle_red.png); }
 
 
 
@@ -231,7 +230,7 @@ h2 { font-size: 40px; }
 .bg-talking, .bg-dj, .bg-playing,
 .bg-range, .bg-environment, .bg-elements,
 /* aboutページ */
-.bg-facebook, .bg-instagram, .bg-twitter, .bg-github { 
+.bg-A_sky, .bg-facebook, .bg-instagram, .bg-twitter, .bg-github, .bg-google, .bg-youtube { 
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -467,12 +466,6 @@ h2 { font-size: 40px; }
     width: 275.98px;
     height: 103.63px;
   }
-
-  .aboutLinkBox {
-    width: 70vw;
-    height: 40vh;
-    margin: 0 auto;
-  }
  
   /* Topページ  serviceセクション */
   .bg-web, .bg-creat, .bg-activ, 
@@ -489,7 +482,6 @@ h2 { font-size: 40px; }
   }
   
   /*お問い合わせフォーム*/
-  
   
   .cp_iptxt {
 	position: relative;
@@ -518,20 +510,14 @@ h2 { font-size: 40px; }
 
 }
 
-.gap{
-	margin-right:1.18vw;
-}
+.gap{	margin-right:1.18vw; }
+.formLabel { float: left; }
 
 textarea {
 	resize: none;
 	width: 35.76vw;
 	height: 93px;
   border-radius: 10px;
-}
-
-
-.formLabel {
-  float: left;
 }
 
 .cp_iptxt-S input[type='text'] {
@@ -562,7 +548,6 @@ textarea {
 }
 
 
-
 /*==============
 Concept  Index.html
 ================*/
@@ -591,21 +576,16 @@ Service  Index.html
   width: 25%;
   margin-bottom: 80px;
 }
-.S5-Sec .S-container {
-    width: 33%;
-}
+.S5-Sec .S-container { width: 33%; }
 .T-Container {
   width: 15.2vw;
   height: 172px;
   margin: 0 auto;
 }
-.S-wrap + p {
-  text-align: center;
-}
+.S-wrap + p { text-align: center; }
+
 @media screen and (max-width: 1260px) {
-  .S-wrap {
-    padding: 0px 60px;
-  }
+  .S-wrap { padding: 0px 60px; }
   .S-container {
     width: 33%;
     margin-bottom: 80px;
@@ -613,18 +593,14 @@ Service  Index.html
 }
 
 @media screen and (max-width: 1024px) {
-  .S-wrap {
-    padding: 0px 60px;
-  }
+  .S-wrap { padding: 0px 60px; }
   .S-container {
     width: 50%;
     margin-bottom: 80px;
   }
 }
 @media screen and (max-width: 768px) {
-  .S-wrap {
-    padding: 0px 40px;
-  }
+  .S-wrap { padding: 0px 40px; }
   .S5-Sec .S-texBox {
     width: 194px;
   }
@@ -635,9 +611,7 @@ Service  Index.html
     width: 100%;
     margin-bottom: 80px;
   }
-  .S5-Sec .S-container {
-    width: 100%;
-  }
+  .S5-Sec .S-container { width: 100%; }
   .S-texBox {
     width: 100% !important;
   }
@@ -674,7 +648,11 @@ Portfolio  Index.html
 About  Index.html
 ================*/
 /* PCサイズ用コード */
-
+.aboutLinkBox {
+  width: 70vw;
+  height: 40vh;
+  margin: 0 auto;
+}
 
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
@@ -684,6 +662,12 @@ About  Index.html
 @media screen and (max-width: 375px) {
 
 }
+/*==============
+Footer  Index.html
+================*/
+/* PCサイズ用コード */
+.T7-Box { margin: 0; }
+
 
 /*=========================================*/
 /*=== SERVICE.html のスタイル　==============*/
