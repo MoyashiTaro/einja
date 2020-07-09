@@ -201,6 +201,10 @@ h2 { font-size: 40px; }
 .bg-teachrun { background: url(img/portfolio/teachrun.png); }
 .bg-travelDJ { background: url(img/portfolio/travelDJ.png); }
 
+/* 顔面画像_about */
+.bg-A_sixman { background: url(img/icon/memberface/BO.png) }
+
+
 /* 背景画像_about */
 .bg-A_sky { background: url(img/bg/A_sky.png) }
 .bg-facebook { background: url(img/icon/socialicon/f_logo_RGB-Blue_58.png); }
@@ -230,6 +234,7 @@ h2 { font-size: 40px; }
 .bg-talking, .bg-dj, .bg-playing,
 .bg-range, .bg-environment, .bg-elements,
 /* aboutページ */
+.bg-A_sixman,
 .bg-A_sky, .bg-facebook, .bg-instagram, .bg-twitter, .bg-github, .bg-google, .bg-youtube { 
   background-size: cover !important;
   background-position: center center !important;
