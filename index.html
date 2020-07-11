@@ -212,11 +212,11 @@
           </div>
           </div>
           <div class = "formFlame-S">
-            <p class = "formLabel">E-mail</p>
             <div class="cp_iptxt-S">
+              <p class = "formLabel">E-mail</p>
               <div class="cp_iptxt-S">
                 <label class="ef">
-                <input type="text" placeholder="E-mail">
+                <input type="text" placeholder="E-mail" required>
                 </label>
               </div>
             </div>
@@ -230,18 +230,33 @@
             </div>
           </div>
           <div class = "formFlame-S">
-            <div class="cp_iptxt-S">
-              <div class = "formSpace"></div>
-              <p class = "formLabel">Category</p>
-              <label class="ef">
-                <input type="text" placeholder="Category">
-              </label>
-            </div>
+            <p class = "formLabel gap2">Category<br></p>
+            <div class="cp_ipselect cp_sl04">
+              <select required>
+              <option value="" hidden>選択してください</option>
+              <option value="1">UI・UX設計</option>
+              <option value="2">WEBデザイン</option>
+              <option value="3">WEB制作</option>
+              <option value="4">WEBアプリ作成</option>
+              <option value="5">WEB解析</option>
+              <option value="6">SEO対策</option>
+              <option value="7">広告運用</option>
+              <option value="8">保守運用</option>
+              <option value="9">動画制作</option>
+              <option value="10">音楽制作</option>
+              <option value="11">チラシ制作</option>
+              <option value="12">名刺デザイン</option>
+              <option value="13">陸上指導</option>
+              <option value="14">論理思考授業</option>
+              <option value="15">出張DJ</option>
+              <option value="16">遊び相手</option>
+              </select>
+              </div>
           </div>
           <div class = "formFlame-L">
-          <div class="spaceL">
+          <div class="spaceM gap3">
             <p class = "formLabel">詳細</p>
-            <textarea type="text" placeholder="Contents"></textarea>
+            <textarea type="text" placeholder="Contents" required></textarea>
           </div>
           <a href="file:///Users/sakaiyuuta/Documents/einja/service.html">
             <div class ="btn bc-orange fw-bold textS btn-width">

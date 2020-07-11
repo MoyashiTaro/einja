@@ -492,12 +492,11 @@ h2 { font-size: 40px; }
   .cp_iptxt {
 	position: relative;
 	width: 80%;
-	padding: 40px 3%;
+  padding: 40px 3%;
 }
 
 .formWrapper{
   width:43.05vw;
-  height:477px;
   background-color: #131E4C;
   border-radius: 20px;
   margin: auto;
@@ -505,19 +504,21 @@ h2 { font-size: 40px; }
 
 .formcontainer{
 	width: 35.76vw;
-	height: 347px;
-  padding: 47.5px 52.5px 0px 52.5px;
+  padding: 29.5px 52.5px;
 }
 
 .formFlame-S{
 	display: inline-block;
 	width: 17.13vw;
 	height: 4.11vw;
-
 }
 
 .gap{	margin-right:1.18vw; }
-.formLabel { float: left; }
+.formLabel { float: left;}
+
+.gap2{padding-top: 8px;}
+
+.gap3{ padding-top: 15px;}
 
 textarea {
 	resize: none;
@@ -542,6 +543,63 @@ textarea {
 	border-bottom: 2px solid #da3c41;
 	outline: none;
 }
+
+.cp_ipselect {
+  width: 100%;
+  margin: 2em auto;
+  text-align: center;
+  }
+  .cp_ipselect select {
+  width: 100%;
+  padding-right: 1em;
+  cursor: pointer;
+  text-indent: 0.01px;
+  text-overflow: ellipsis;
+  border: none;
+  outline: none;
+  background: transparent;
+  background-image: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  appearance: none;
+  }
+  .cp_ipselect select::-ms-expand {
+  display: none;
+  }
+  .cp_ipselect.cp_sl04 {
+  position: relative;
+  border-radius: 2px;
+  border: 2px solid #ffffff;
+  border-radius: 80px;
+  background: #ffffff;
+  }
+  .cp_ipselect.cp_sl04::before {
+  position: absolute;
+  top: 0.8em;
+  right: 0.8em;
+  width: 0;
+  height: 0;
+  padding: 0;
+  content: '';
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #ffffff;
+  pointer-events: none;
+  }
+  .cp_ipselect.cp_sl04 select {
+  padding: 0.3em;
+  }
+
+@media screen and (max-width: 1384px) {
+  .formFlame-S {
+  width: 100%;
+  padding-top: 10px;
+  }
+  .cp_iptxt-S{
+    padding-top: 10px;
+  }
+}
+
 
 
 /* スマホ（３７５）
