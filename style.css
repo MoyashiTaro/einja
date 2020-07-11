@@ -126,6 +126,7 @@ h2 { font-size: 40px; }
 .bc-indigo  { background-color: #093569; } /* Portfolioの背景色 */
 .bc-skyblue { background-color: #3696F4; }
 .bc-gray    { background-color: #3C3939; }
+.bc-gray    { background-color: #eee; }
 .bc-orange { background-color: #AC210C; }
 .bc-DDindigo { background-color: #020424; }
 .bc-bluegradate { background: linear-gradient(0.25turn, #18D0CA, #11CBCE, #1EBAD6, #23B2E4, #349FEE, #3792F7); } /* Aboutの背景色 */
@@ -921,7 +922,7 @@ WEB  portfolio.html
   height: 112px;/*高さ*/
   border-radius: 50%;/*角丸*/
   position: relative;
-  top: 56px;
+  top: 45px;
   margin: 0 auto;
   z-index: 1;
 }
