@@ -126,7 +126,7 @@ h2 { font-size: 40px; }
 .bc-indigo  { background-color: #093569; } /* Portfolioの背景色 */
 .bc-skyblue { background-color: #3696F4; }
 .bc-gray    { background-color: #3C3939; }
-.bc-gray    { background-color: #eee; }
+.bc-whitegray    { background-color: #eee; }
 .bc-orange { background-color: #AC210C; }
 .bc-DDindigo { background-color: #020424; }
 .bc-bluegradate { background: linear-gradient(0.25turn, #18D0CA, #11CBCE, #1EBAD6, #23B2E4, #349FEE, #3792F7); } /* Aboutの背景色 */
@@ -204,7 +204,11 @@ h2 { font-size: 40px; }
 
 /* 顔面画像_about */
 .bg-A_sixman { background: url(img/icon/memberface/BO.png) }
-
+.bg-A_ama { background: url(img/icon/memberface/ama.png) }
+.bg-A_igu { background: url(img/icon/memberface/igu.png) }
+.bg-A_sota { background: url(img/icon/memberface/sota.png) }
+.bg-A_yuta { background: url(img/icon/memberface/yuta.png) }
+.bg-A_pochi { background: url(img/icon/memberface/pochi.png) }
 
 /* 背景画像_about */
 .bg-A_sky { background: url(img/bg/A_sky.png) }
@@ -235,7 +239,7 @@ h2 { font-size: 40px; }
 .bg-talking, .bg-dj, .bg-playing,
 .bg-range, .bg-environment, .bg-elements,
 /* aboutページ */
-.bg-A_sixman,
+.bg-A_sixman, .bg-A_ama, .bg-A_igu, .bg-A_sota, .bg-A_yuta, .bg-A_pochi,
 .bg-A_sky, .bg-facebook, .bg-instagram, .bg-twitter, .bg-github, .bg-google, .bg-youtube { 
   background-size: cover !important;
   background-position: center center !important;
@@ -983,6 +987,11 @@ WEB  portfolio.html
   top: 45px;
   margin: 0 auto;
   z-index: 1;
+}
+
+.memberfacein {
+  width: 100%;
+  height: 100%;
 }
 
 .socialBox {
