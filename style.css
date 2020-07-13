@@ -508,7 +508,7 @@ h2 { font-size: 40px; }
 
 .formcontainer{
 	width: 35.76vw;
-  padding: 29.5px 52.5px;
+  padding: 29.5px 4vw;
 }
 
 .formFlame-S{
@@ -601,6 +601,12 @@ textarea {
   }
   .cp_iptxt-S{
     padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .btn-width{
+    width:33vw;
   }
 }
 
