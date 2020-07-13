@@ -487,10 +487,18 @@ h2 { font-size: 40px; }
   }
   
   .serviceContainer{
-    width: 15.27vw;
-    height: 172px;
+    
   }
   
+  /* スマホ（３７５）
+  タブレット（７６８）サイズ用 コード*/
+  @media screen and (max-width: 768px) {
+    .serviceWrapper { display: block; }
+  }
+  @media screen and (max-width: 414px) {
+    
+  }
+
   /*お問い合わせフォーム*/
   
   .cp_iptxt {
@@ -610,33 +618,6 @@ textarea {
   }
 }
 
-
-
-/* スマホ（３７５）
-   タブレット（７６８）サイズ用 コード*/
-@media screen and (max-width: 768px) {
-
-}
-@media screen and (max-width: 375px) {
-
-}
-
-
-/*==============
-Concept  Index.html
-================*/
-/* PCサイズ用コード */
-
-
-/* スマホ（３７５）
-   タブレット（７６８）サイズ用 コード*/
-@media screen and (max-width: 768px) {
-
-}
-@media screen and (max-width: 375px) {
-
-}
-
 /*==============
 Service  Index.html 
 ================*/
@@ -678,9 +659,11 @@ Service  Index.html
   .S5-Sec .S-texBox {
     width: 194px;
   }
+  .T-Container { width: 22.2vw; }
 }
 
 @media screen and (max-width: 414px) {
+  .T-Container { width: 47.2vw; }
   .S-container {
     width: 100%;
     margin-bottom: 80px;
@@ -731,10 +714,11 @@ About  Index.html
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
 @media screen and (max-width: 768px) {
-
+  .aboutLinkBox { height: 30vh; }
+  
 }
 @media screen and (max-width: 375px) {
-
+  .aboutLinkBox { height: 15vh; }
 }
 /*==============
 Footer  Index.html
