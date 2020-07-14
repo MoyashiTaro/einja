@@ -111,7 +111,7 @@ h2 { font-size: 40px; }
     .textM   { font-size: 20px; }
     .textL   { font-size: 35px; }
     .textSub { font-size: 25px; }
-    .spaceTL { padding-top: 20px; }
+    .spaceTL { padding-top: 40px; }
   }
 
 @media screen and (max-width: 414px) {
@@ -900,8 +900,20 @@ WEB  portfolio.html
   bottom: 0;
 }
 
-/* スマホ（３７５）
-   タブレット（７６８）サイズ用 コード*/
+   @media screen and (max-width: 1180px) {
+    .tab-content {
+      width: 100vw;
+    }
+    .P-wrap {
+      flex-direction: column;
+    }
+    .P-Box {
+      display: none;
+    }
+    .P-lists {
+      display: none;
+    }
+   }
    @media screen and (max-width: 768px) {
     .portfolio .spaceL {
       padding-bottom: 40px;
