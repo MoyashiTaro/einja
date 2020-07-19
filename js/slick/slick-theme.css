@@ -23,7 +23,7 @@
     line-height: 0;
 
     position: absolute;
-    top: 40%;
+    top: 34%;
 
     display: block;
 
@@ -41,6 +41,16 @@
     outline: none;
     background: transparent;
     z-index: 1;
+}
+@media screen and (max-width: 1024px) {
+  .slick-prev, .slick-next {
+    top: 24%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slick-prev, .slick-next {
+    display: none;
+  }
 }
 .slick-prev:hover,
 .slick-prev:focus,

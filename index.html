@@ -27,7 +27,7 @@
        Sec ＞　Wrap　＞ Container　＞　Box
      -->
 </head>
-<body class="bc-indigo">
+<body class="bc-indigo" id="Top-page">
   <!-- Navigation -->
   <nav class="menu bc-gray">
     <button class="menu__button">
@@ -82,10 +82,16 @@
   </nav>
 
   <!-- 1.Top -->
-  <section class="T1-Sec bg-T_rise">
+  <section class="T1-Sec bg-T_rise" id="top">
     <div>
       <ing ref = T_rise.jpg></ing>
-      <h1><img class="T1-h1" src="img/logo-title.png" alt=""></h1>
+      <h1 class="spaceL"><img class="T1-h1" src="img/logo-title.png" alt=""></h1>
+      <!-- Top btn -->
+      <a href="#form">
+          <div class ="btn bc-orange fw-bold textS btn-width ">
+            <div class="btnText">CONTACT US <span class = "right-vector">〉</span></div>
+          </div>
+      </a>
     </div>
   </section>
 
@@ -107,7 +113,7 @@
   <section class="bg-T_Bsky bc-indigo"></section>
 
   <!-- 3.Service -->
-  <section class="bc-indigo">
+  <section class="bc-indigo" id="service">
     <h2 class ="fw-bold">SERVICE</h2>
     <p class ="spaceM">できること</p>
     <div class ="serviceWrapper spaceL">
@@ -138,7 +144,7 @@
   <section class="bg-T_mtAlps"></section>
 
   <!-- 4.Portfolio -->
-  <section class="bc-white spaceTL">
+  <section class="bc-white spaceTL" id="portfolio">
     <h2 class="fw-bold fc-black">PORTFOLIO</h2>
     <p class="spaceM fc-black">せいかぶつ</p>
     <!-- スライダー設置する -->
@@ -181,7 +187,7 @@
   <section class="bg-T_cloud"></section>
   
   <!-- 5.About -->
-  <section class="spaceL">
+  <section class="spaceL" id="about">
     <h2 class="fw-bold">ABOUT</h2>
     <p class="spaceL">めんばー</p>
     <!-- <div class="aboutLinkBox bg-T_ALink"></div> -->
@@ -198,7 +204,7 @@
   </section>
   
 <!-- 6.Contact -->
-<section class="spaceTL">
+<section class="spaceTL" id="form">
   <h2 class="fw-bold">CONTACT</h2>
   <p class="spaceM">問い合わせ</p>
   <div class="spaceL">上記のサービスから、マーケティングコンサルや<br>
@@ -276,7 +282,9 @@
 <footer class="bc-gray">
   <div class="footer-container">
     <div class="bg-footerLogo T7-Box"></div>
-    <img src="img/logo-title!.png" alt="" class="footer-logo spaceL">
+    <a href="#top">
+      <img src="img/logo-title!.png" alt="" class="footer-logo spaceL">
+    </a>
     <ul class="footer-lists spaceL fw-bold">
       <li><a href="#service">SERVICE</a> /</li>
       <li><a href="#portfolio">PORTFOLIO</a> /</li>

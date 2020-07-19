@@ -71,6 +71,8 @@ body {
   font-family: 'Avenir';
   background-color: #062750;
   text-align: center;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /*　文字サイズ　*/
@@ -149,6 +151,9 @@ h2 { font-size: 40px; }
   }
   .bg-T_cloud {
     height: 10vh;
+    position: relative;
+    top: -1px;
+    z-index: -1;
   }
   .serviceWrapper {
     margin: 0px 16vw 0px !important;
@@ -264,16 +269,44 @@ h2 { font-size: 40px; }
   padding: 12px 0 12px 0;
   border-radius:80px;
   display: inline-block;
+  transition: ease .7s;
 }
+#Top-page .btn     { border: 1px solid #AC210C; }
+#Service-page .btn { border: 1px solid #3696F4; }
 
 .btn-width {width: 230px;}
 
 .btnText{
   text-align: center;
-  padding-left: 20px;}
-  
-  .right-vector{padding-left:12px }
-  
+  padding-left: 20px;
+}
+
+#Top-page .btn:hover {
+  background-color: #fff !important;
+}
+#Service-page .btn:hover {
+  background-color: #3696F4 !important;
+}
+
+
+#Top-page .btn:hover .btnText {
+  color: #AC210C;
+}
+#Service-page .btn:hover .btnText {
+  color: #fff;
+}
+
+.right-vector { 
+  position: relative;
+  left: 0;
+  padding-left:12px;
+  transition: ease .7s;
+}
+
+.btn:hover .right-vector {
+  left: 5px;
+}
+
 
   /*==============
   Top Section All
@@ -301,7 +334,7 @@ h2 { font-size: 40px; }
     .S1-Sec,
     .P1-Sec,
     .A1-Sec {
-      height: 480px;
+      height: 700px;
     }
   }
 
@@ -310,7 +343,7 @@ h2 { font-size: 40px; }
     .S1-Sec,
     .P1-Sec,
     .A1-Sec {
-      height: 341px;
+      height: 621px;
     }
   }
   
