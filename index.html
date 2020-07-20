@@ -233,10 +233,10 @@
               </label>
             </div>
           </div>
-          <div class="formFlame-S">
-            <p class="formLabel gap2">Category<br></p>
-            <div class="cp_ipselect cp_sl04">
-              <select required>
+          <div class="formFlame-S form-group row">
+            <p class="formLabel gap2 col-xs-3 col-form-label">Category<br></p>
+            <div class="cp_ipselect cp_sl04 col-xs-9" data-formrun-hide-if-confirm>
+              <select class="form-control form-control-lg" name="Category" data-formrun-required>
                 <option value="" hidden>選択してください ▼ </option>
                 <option value="1">UI・UX設計</option>
                 <option value="2">WEBデザイン</option>
@@ -258,7 +258,7 @@
             </div>
           </div>
           <div class="formFlame-L">
-            <div class="spaceM gap3">
+            <div class="spaceS gap3">
               <p class="formLabel">詳細</p>
               <textarea type="text" placeholder="Contents" name="お問い合わせ" data-formrun-required></textarea>
               <!-- <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div> -->
