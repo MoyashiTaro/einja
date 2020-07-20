@@ -218,7 +218,8 @@
               <div class="cp_iptxt-S">
                 <label class="ef">
                   <!-- <input type="text" placeholder="E-mail" required> -->
-                  <input name="メールアドレス" type="text" placeholder="E-mail" data-formrun-type="email" data-formrun-required>
+                  <input name="メールアドレス" type="text" placeholder="E-mail" data-formrun-type="email"
+                    data-formrun-required>
                   <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
                 </label>
               </div>
@@ -236,7 +237,7 @@
             <p class="formLabel gap2">Category<br></p>
             <div class="cp_ipselect cp_sl04">
               <select required>
-                <option value="" hidden>選択してください</option>
+                <option value="" hidden>選択してください ▼ </option>
                 <option value="1">UI・UX設計</option>
                 <option value="2">WEBデザイン</option>
                 <option value="3">WEB制作</option>
@@ -263,26 +264,38 @@
               <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
             </div>
 
-            <div>
+            <!-- <div>
               <label>個人情報利用同意 [必須]</label>
               <input type="checkbox" name="個人情報利用同意" data-formrun-required>
               <div data-formrun-show-if-error="個人情報利用同意">同意してください</div>
-            </div>
+            </div> -->
 
             <!-- ボット投稿をブロックするためのタグ -->
             <div class="_formrun_gotcha">
-              <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+              <style media="screen">
+                ._formrun_gotcha {
+                  position: absolute !important;
+                  height: 1px;
+                  width: 1px;
+                  overflow: hidden;
+                }
+              </style>
               <label for="_formrun_gotcha">If you are a human, ignore this field</label>
               <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
             </div>
             <a href="https://moyashitaro.github.io/einja/index.html">
-              <button type="submit" class="btn bc-orange fw-bold textS btn-width"  data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">
+              <button type="submit" class="btn bc-orange fw-bold textS btn-width" data-formrun-error-text="未入力の項目があります"
+                data-formrun-submitting-text="送信中...">
                 <div class="btnText">SEND<span class="right-vector">〉</span></div>
               </button>
             </a>
           </div>
         </div>
       </form>
+      <script src="https://sdk.form.run/js/v2/embed.js"></script>
+      <div class="formrun-embed" data-formrun-form="@yuvwchaos-1588924672" data-formrun-redirect="true">
+      </div>
+
   </section>
 
   <!-- 7.Footer -->
