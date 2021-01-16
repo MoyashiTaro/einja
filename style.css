@@ -1104,6 +1104,13 @@ WEB  portfolio.html
 }
 .A-Wrap { padding: 22px; }
 
+.A-company{
+  margin: 0 auto;
+}
+.A-company td{
+  text-align: left;
+}
+
 /* スマホ（３７５）
    タブレット（７６８）サイズ用 コード*/
    @media screen and (max-width: 768px) {
