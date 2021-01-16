@@ -76,13 +76,13 @@ body {
 }
 
 /*　文字サイズ　*/
-h1 { font-size: 58px; }
-h2 { font-size: 40px; }
-.textXS { font-size: 13px; }
-.textS   { font-size: 16px; }
-.textM   { font-size: 30px; }
-.textL   { font-size: 58px; }
-.textSub { font-size: 25px; }
+h1 { font-size: 4vw; }
+h2 { font-size: 2.8vw; }
+.textXS { font-size: 0.91vw; }
+.textS   { font-size: 1.12vw; }
+.textM   { font-size: 2.1vw; }
+.textL   { font-size: 4vw; }
+.textSub { font-size: 1.75vw; }
 
 /*　文字色　*/
 .fc-white   { color: #fff; }
@@ -106,20 +106,15 @@ h2 { font-size: 40px; }
 
 .fw-bold { font-weight: bold; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
     h1 { font-size: 35px; }
-    h2 { font-size: 30px; }
+    h2 { font-size: 40px; }
     .textS   { font-size: 13px; }
     .textM   { font-size: 20px; }
     .textL   { font-size: 35px; }
     .textSub { font-size: 25px; }
     .spaceTL { padding-top: 40px; }
   }
-
-@media screen and (max-width: 414px) {
-  h2 { font-size: 40px; }
-}
-
 /*　背景色　*/
 
 .bc-black   { background-color: #18191B; }
