@@ -87,7 +87,7 @@ h2 { font-size: 2.8vw; }
 /*　文字色　*/
 .fc-white   { color: #fff; }
 .fc-black   { color: #000; }
-.fc-indigo  { color: #093768; }  
+.fc-indigo  { color: #093768; }
 .fc-skyblue { color: #3696F4; }
 .fc-orange  { color: #AC210C; }
 .fc-redgradate {
@@ -103,7 +103,6 @@ h2 { font-size: 2.8vw; }
 .spaceL { padding-bottom: 80px; }
 .spaceTL { padding-top: 80px; }
 .LspaceL { margin: 0px 10.69vw}
-
 .fw-bold { font-weight: bold; }
 
 @media screen and (max-width: 414px) {
@@ -176,22 +175,18 @@ h2 { font-size: 2.8vw; }
 .bg-elements { background: url(img/service/elements.png); }
 
 /* 背景画像_Portfolio */
-.bg-P_mtHida { 
+.bg-P_mtHida {
   background: url(img/bg/P_mtHida.png) no-repeat center -3%;
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
   .bg-P_mtHida {
     background: url(img/bg/P_mtHida.png) no-repeat center -5%;
-    background-size: cover;
-    background-color: #fff;
   }
 }
 @media screen and (max-width: 414px) {
   .bg-P_mtHida {
     background: url(img/bg/P_mtHida.png) no-repeat center 0%;
-    background-size: contain;
-    background-color: #fff;
   }
 }
 .bg-P_cloud  { background: url(img/bg/P_cloud.png); }
@@ -235,23 +230,23 @@ h2 { font-size: 2.8vw; }
 /* Topページ  背景 */
 .bg-T_rise, .bg-T_ALink, .T_ALink, .bg-T_Bsky, .bg-T_mtAlps, .bg-T_cloud, .bg-T_city,
 /* Topページ  serviceセクション */
-.bg-web, .bg-creat, .bg-activ, 
+.bg-web, .bg-creat, .bg-activ,
 /* Portofolio 背景*/
 .bg-P_cloud,
 /* Portfolioページ */
-.bg-Lab89, .bg-hero, .bg-k2m ,.bg-plus, .bg-shoespicks, .bg-ana, 
+.bg-Lab89, .bg-hero, .bg-k2m ,.bg-plus, .bg-shoespicks, .bg-ana,
 .bg-bts, .bg-earth, .bg-fish, .bg-sns, .bg-tf, .bg-train,
 .bg-vrwatch, .bg-remix, .bg-kanie, .bg-teachrun,.bg-travelDJ,
 /* Service 背景 */
 .bg-S_sky,
 /* Serviceページ  Icon */
-.bg-UIUX, .bg-webDesign, .bg-app, .bg-analy, .bg-seo, .bg-ad, .bg-mante, 
+.bg-UIUX, .bg-webDesign, .bg-app, .bg-analy, .bg-seo, .bg-ad, .bg-mante,
 .bg-movie, .bg-music, .bg-reflet, .bg-card,
 .bg-talking, .bg-dj, .bg-playing,
 .bg-range, .bg-environment, .bg-elements,
 /* aboutページ */
 .bg-A_sixman, .bg-A_ama, .bg-A_igu, .bg-A_sota, .bg-A_yuta, .bg-A_pochi,
-.bg-A_sky, .bg-facebook, .bg-instagram, .bg-twitter, .bg-github, .bg-google, .bg-youtube { 
+.bg-A_sky, .bg-facebook, .bg-instagram, .bg-twitter, .bg-github, .bg-google, .bg-youtube {
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -291,7 +286,7 @@ h2 { font-size: 2.8vw; }
   color: #fff;
 }
 
-.right-vector { 
+.right-vector {
   position: relative;
   left: 0;
   padding-left:12px;
@@ -321,7 +316,7 @@ h2 { font-size: 2.8vw; }
     top: 50%;
     transform: translateY(-50%);
   }
-  
+
   /* スマホ（３７５）
   タブレット（７６８）サイズ用 コード*/
   @media screen and (max-width: 1024px) {
@@ -341,13 +336,6 @@ h2 { font-size: 2.8vw; }
       height: 621px;
     }
   }
-  
-
-  @media screen and (max-width: 375px) {
-    
-  }
-  
-
 
   /*==============
   HumbergerMenu All
@@ -363,9 +351,9 @@ h2 { font-size: 2.8vw; }
     transition: width .2s;
     display: flex;
   }
-  
+
   .menu--isOpen { width: 100vw; }/* メニューの範囲 */
-  
+
   .menu__button {
     position: fixed;
     right: 10px;
@@ -395,27 +383,26 @@ h2 { font-size: 2.8vw; }
   .portfolio .menu span {
     background-color: #3696F4;
   }
-  
+
   .menu__lineTop { transform: translateY(-10px); }
-  .menu__lineMiddle {}
   .menu__lineBottom { transform: translateY(10px); }
   .menu--isOpen .menu__lineTop { transform: rotate(45deg); }
   .menu--isOpen .menu__lineMiddle { opacity: 0; }
   .menu--isOpen .menu__lineBottom { transform: rotate(-45deg); }
-  
+
   .underline {
     width: 64px !important;
     height: 0px;
     border: solid #fff 2px;
     display: inline-block;
   }
-  
+
   .menuContainer {
     width: 24.8vw;
     height: 100vh;
     border: 0.1vw solid #3C3939;
   }
-  
+
   .menuContainer :hover {
     width: 28vw;
     background: url(img/bg/menu-gradation.png);
@@ -423,13 +410,13 @@ h2 { font-size: 2.8vw; }
     z-index: 20;
     transition: .4s;
   }
-  
+
   .menuBox {
     width: 24.8vw;
     height: 100vh;
     position: relative;
   }
-  
+
   .menuContent {
     position: absolute;
     top: 50%;
@@ -437,9 +424,9 @@ h2 { font-size: 2.8vw; }
     -webkit-transform : translate(-50%,-50%);
     transform : translate(-50%,-50%);
   }
-  
+
   .menuBox :hover { background: rgb(255, 255, 255, 0) !important; }
-  
+
   /* スマホ（３７５）
   タブレット（７６８）サイズ用 コード*/
   @media screen and (max-width: 1030px) {
@@ -455,9 +442,9 @@ h2 { font-size: 2.8vw; }
     .menu { display: block; }
   }
   @media screen and (max-width: 375px) {
-    
+
   }
-  
+
   /*==============
   Footer All
   ================*/
@@ -475,7 +462,7 @@ h2 { font-size: 2.8vw; }
     background: url(img/icon/einja-footerLogo.png);
     background-size: cover;
   }
-  
+
   .footer-logo {
     display: block;
     width: 168px;
@@ -491,55 +478,48 @@ h2 { font-size: 2.8vw; }
   .footer-lists li:hover a{
     color: #000;
   }
-  
+
   /* スマホ（３７５）
   タブレット（７６８）サイズ用 コード*/
-  @media screen and (max-width: 768px) {
-    
-  }
   @media screen and (max-width: 414px) {
     .bg-footerLogo {
       left: 41%;
     }
   }
-  
+
   /*========================================*/
   /*===　INDEX.html（Topページ）のスタイル　===*/
   /*========================================*/
-  
+
   /*==============
-  Top  Index 
+  Top  Index
   ================*/
   /* H1 Einjaのスタイル */
   .T1-h1 {
     width: 275.98px;
     height: 103.63px;
   }
- 
+
   /* Topページ  serviceセクション */
-  .bg-web, .bg-creat, .bg-activ, 
+  .bg-web, .bg-creat, .bg-activ,
   .serviceWrapper{
     display: flex;
     width: 67.01vw;
     text-align: center;
     margin: 0px 16vw 80px;
   }
-  
-  .serviceContainer{
-    
-  }
-  
+
   /* スマホ（３７５）
   タブレット（７６８）サイズ用 コード*/
   @media screen and (max-width: 768px) {
     .serviceWrapper { display: block; }
   }
   @media screen and (max-width: 414px) {
-    
+
   }
 
   /*お問い合わせフォーム*/
-  
+
   .cp_iptxt {
 	position: relative;
 	width: 80%;
@@ -664,7 +644,7 @@ textarea {
 }
 
 /*==============
-Service  Index.html 
+Service  Index.html
 ================*/
 /* PCサイズ用コード */
 .S-wrap {
@@ -718,9 +698,6 @@ Service  Index.html
     width: 100% !important;
   }
 }
-@media screen and (max-width: 375px) {
-
-}
 
 /*==============
 Portfolio  Index.html
@@ -730,7 +707,6 @@ Portfolio  Index.html
   content: "";
   width: 100%;
   height: 100%;
-  background: ;
 }
 .T4-slider-container {
   padding: 0 188px;
@@ -743,9 +719,7 @@ Portfolio  Index.html
     padding: 0;
   }
 }
-@media screen and (max-width: 375px) {
 
-}
 /*==============
 About  Index.html
 ================*/
@@ -778,7 +752,7 @@ About  Index.html
 }
 @media screen and (max-width: 768px) {
   .aboutLinkBox { height: 30vh; }
-  
+
 }
 @media screen and (max-width: 375px) {
   .aboutLinkBox { height: 15vh; }
@@ -852,7 +826,6 @@ Tab Bar
 .tab-buttons span{
   color: #fff;
   cursor: pointer;
-  /*border-bottom: 20px solid #ddd;*/
   display:block;
   width: 25%;
   float: left;
@@ -865,7 +838,6 @@ Tab Bar
   position: relative;
   top: 20px;
   display: inline-block;
-  /*padding: 15px;*/
 }
 
 #lamp{
@@ -934,10 +906,10 @@ WEB  portfolio.html
   color: #093569;
 }
 
-.P-Container { 
+.P-Container {
   position: relative;
   width: 50%;
-  padding-right: 4.7vw; 
+  padding-right: 4.7vw;
 }
 
 .link-container {
@@ -947,8 +919,6 @@ WEB  portfolio.html
 }
 
 .P-bgContainer {
-  /*width: 100%;*/
-  /*height: 33.5vh;*/
   position: absolute;
   top: 0;
   left: 0;
@@ -1023,10 +993,6 @@ WEB  portfolio.html
     .P-lists {
       bottom: -42px;
     }
-  }
-    
-  @media screen and (max-width: 375px) {
-  
   }
 
 /*=======================================
@@ -1114,7 +1080,4 @@ WEB  portfolio.html
       padding: 14px;
       display: block;
     }
-  }
-  @media screen and (max-width: 375px) {
-  
   }
