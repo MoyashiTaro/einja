@@ -1,5 +1,5 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{http_host} ^https://moyashitaro.github.io/einja/
-RewriteRule ^(.*)$ https://einja.net [R=301,L]
+RewriteRule ^(.*)$ https://einja.net/$1 [R=301,L]
 </IfModule>
